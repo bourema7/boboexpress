@@ -528,7 +528,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                 color: Colors.green.withOpacity(0.05),
               ),
               child: IconButton(
-                icon: const Icon(Icons.whatsapp, color: Colors.green),
+                icon: const Icon(Icons.chat, color: Colors.green),
                 onPressed: () async {
                   const String phoneNumber = "22667774512";
                   final String productName = _product!['name'];

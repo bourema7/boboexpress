@@ -806,7 +806,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: const [
-                          Icon(Icons.whatsapp, size: 18),
+                          Icon(Icons.chat, size: 18),
                           SizedBox(width: 8),
                           Text('WhatsApp'),
                         ],

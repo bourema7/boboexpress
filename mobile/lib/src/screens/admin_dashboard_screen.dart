@@ -649,7 +649,7 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     IconButton(
-                      icon: const Icon(Icons.whatsapp,
+                      icon: const Icon(Icons.chat,
                           color: Colors.green, size: 20),
                       onPressed: () async {
                         final String phone = o['user_phone'] ??

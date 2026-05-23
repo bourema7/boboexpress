@@ -34,11 +34,10 @@ jobs:
 
       - name: Build web
         working-directory: mobile
-        run: flutter build web --release --dart-define=BASE_URL=https://boboexpress.onrender.com/api
+        run: flutter build web --release --base-href /boboexpress/ --dart-define=BASE_URL=https://boboexpress.onrender.com/api
 
-      - name: Configure custom domain
+      - name: Configure Pages files
         run: |
-          echo "boboexpress.com" > mobile/build/web/CNAME
           touch mobile/build/web/.nojekyll
 
       - name: Configure Pages

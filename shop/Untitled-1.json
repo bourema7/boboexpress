@@ -1,0 +1,8 @@
+{
+  "name": "Produit test API",
+  "slug": "produit-test-api",
+  "description": "Test création produit",
+  "price": "1000.00",
+  "stock": 5,
+  "category_id": 1
+}

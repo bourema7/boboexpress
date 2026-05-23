@@ -1,0 +1,34 @@
+version: '3.9'
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: changeme
+      MYSQL_DATABASE: boboexpress
+      MYSQL_USER: boboexpress
+      MYSQL_PASSWORD: boboexpress
+    ports:
+      - '3306:3306'
+    volumes:
+      - db_data:/var/lib/mysql
+
+  web:
+    build: .
+    command: gunicorn BoboExpress.wsgi:application --bind 0.0.0.0:8000 --workers 4
+    volumes:
+      - .:/app
+    ports:
+      - '8000:8000'
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_PORT=3306
+      - MYSQL_DATABASE=boboexpress
+      - MYSQL_USER=boboexpress
+      - MYSQL_PASSWORD=boboexpress
+      - DJANGO_DEBUG=False
+      - DJANGO_SECRET_KEY=supersecretkey
+    depends_on:
+      - db
+
+volumes:
+  db_data:

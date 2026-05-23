@@ -48,7 +48,9 @@ class ProductViewSet(viewsets.ModelViewSet):
         profile = getattr(user, 'profile', None)
         
         # Admin et vendeurs voient tous leurs produits (même en rupture) pour gestion
-        is_manager = user.is_authenticated and user.is_staff or (profile and profile.role in ('admin', 'seller'))
+        is_manager = user.is_authenticated and (
+            user.is_staff or (profile and profile.role in ('admin', 'seller'))
+        )
         
         # Pour les clients : masquer les produits inactifs ou en rupture de stock
         if not is_manager:

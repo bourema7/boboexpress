@@ -1,4 +1,5 @@
 from django.utils import timezone
+from django.db import models
 from rest_framework import permissions, status, viewsets
 from rest_framework.decorators import action
 from rest_framework.exceptions import PermissionDenied

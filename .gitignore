@@ -24,3 +24,7 @@ mobile/coverage/
 *.iml
 .DS_Store
 Thumbs.db
+
+# Local run/debug artifacts
+*.log
+data.json

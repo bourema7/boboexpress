@@ -274,31 +274,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildCategoryTabs() {
-    final categoryIcons = {
-      'Tout': 'ðŸ›ï¸',
-      'Alimentation': 'ðŸŽ',
-      'BeautÃ©': 'ðŸ’„',
-      'Beaute et Soins': 'ðŸ’„',
-      'Bijoux': 'ðŸ’',
-      'Bijoux et Accessoires': 'ðŸ’',
-      'Chaussures': 'ðŸ‘Ÿ',
-      'Ã‰lectronique': 'ðŸ“±',
-      'Electronique': 'ðŸ“±',
-      'Enfants': 'ðŸ‘¶',
-      'Hommes': 'ðŸ‘•',
-      'Femmes': 'ðŸ‘—',
-      'Mode': 'ðŸ‘—',
-      'VÃªtements': 'ðŸ‘•',
-      'Informatique': 'ðŸ’»',
-      'Maison': 'ðŸ ',
-      'Sacs': 'ðŸ‘œ',
-      'Sport': 'ðŸ‹ï¸',
-      'Sport et Fitness': 'ðŸ‹ï¸',
-      'Accessoires': 'ðŸ•¶ï¸',
-      'SantÃ©': 'ðŸ’Š',
-      'Automobile': 'ðŸš—',
-    };
-
     return SliverToBoxAdapter(
       child: Column(
         children: [
@@ -309,34 +284,33 @@ class _HomeScreenState extends State<HomeScreen> {
               scrollDirection: Axis.horizontal,
               padding: const EdgeInsets.symmetric(horizontal: 16),
               children: [
-                _buildTab('home.all'.tr(), null, categoryIcons['Tout']!),
+                _buildTab('home.all'.tr(), null),
                 ..._categories.map((c) {
                   final keys = {
                     'Alimentation': 'categories.food',
-                    'BeautÃ©': 'categories.beauty',
+                    'Beauté': 'categories.beauty',
                     'Beaute et Soins': 'categories.beauty_care',
                     'Bijoux': 'categories.jewelry',
                     'Bijoux et Accessoires': 'categories.jewelry_accessories',
                     'Chaussures': 'categories.shoes',
-                    'Ã‰lectronique': 'categories.electronics',
+                    'Électronique': 'categories.electronics',
                     'Electronique': 'categories.electronics',
                     'Enfants': 'categories.kids',
                     'Hommes': 'categories.men',
                     'Femmes': 'categories.women',
                     'Mode': 'categories.fashion',
-                    'VÃªtements': 'categories.clothes',
+                    'Vêtements': 'categories.clothes',
                     'Informatique': 'categories.computers',
                     'Maison': 'categories.home',
                     'Sacs': 'categories.bags',
                     'Sport': 'categories.sports',
                     'Sport et Fitness': 'categories.sports_fitness',
                     'Accessoires': 'categories.accessories',
-                    'SantÃ©': 'categories.health',
+                    'Santé': 'categories.health',
                     'Automobile': 'categories.automotive',
                   };
                   String translatedName = keys[c['name']]?.tr() ?? c['name'];
-                  return _buildTab(translatedName, c['id'],
-                      categoryIcons[c['name']] ?? 'ðŸ“¦');
+                  return _buildTab(translatedName, c['id']);
                 }).toList(),
               ],
             ),
@@ -380,7 +354,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Icons.category_outlined;
   }
 
-  Widget _buildTab(String label, int? id, String emoji) {
+  Widget _buildTab(String label, int? id) {
     final bool isActive = _selectedCategoryId == id;
     final icon = _categoryIconFor(label);
     return GestureDetector(

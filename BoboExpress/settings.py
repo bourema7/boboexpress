@@ -42,8 +42,8 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    "whitenoise.middleware.WhiteNoiseMiddleware",
     'corsheaders.middleware.CorsMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -121,7 +121,10 @@ CORS_ALLOW_ALL_ORIGINS = os.getenv('CORS_ALLOW_ALL_ORIGINS', 'False') == 'True'
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     origin.strip()
-    for origin in os.getenv('CORS_ALLOWED_ORIGINS', '').split(',')
+    for origin in os.getenv(
+        'CORS_ALLOWED_ORIGINS',
+        'https://bourema7.github.io,https://boboexpress.com,https://www.boboexpress.com',
+    ).split(',')
     if origin.strip()
 ]
 
@@ -129,7 +132,10 @@ CORS_ALLOWED_ORIGIN_REGEXES = []
 
 CSRF_TRUSTED_ORIGINS = [
     origin.strip()
-    for origin in os.getenv('CSRF_TRUSTED_ORIGINS', '').split(',')
+    for origin in os.getenv(
+        'CSRF_TRUSTED_ORIGINS',
+        'https://bourema7.github.io,https://boboexpress.com,https://www.boboexpress.com,https://boboexpress.onrender.com',
+    ).split(',')
     if origin.strip()
 ]
 

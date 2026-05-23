@@ -1,7 +1,7 @@
 class AppConfig {
-  // Override with --dart-define=BASE_URL=http://your_pc_ip:8000/api
+  // Override with --dart-define=BASE_URL=http://your_pc_ip:8000/api for local tests.
   static const String baseUrl = String.fromEnvironment(
     'BASE_URL',
-    defaultValue: 'http://192.168.1.88:8000/api', // PC Wi-Fi for physical phone
+    defaultValue: 'https://boboexpress.onrender.com/api',
   );
 }

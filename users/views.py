@@ -2,6 +2,7 @@ from django.contrib.auth.models import User
 from rest_framework import generics, permissions, status, viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
+from rest_framework_simplejwt.views import TokenObtainPairView
 
 
 
@@ -11,6 +12,7 @@ from .serializers import (
     RegisterSerializer,
     UserListSerializer,
     UserProfileSerializer,
+    EmailOrUsernameTokenObtainPairSerializer,
 )
 
 
@@ -32,6 +34,10 @@ class RegisterView(generics.CreateAPIView):
             'username': user.username,
             'email': user.email,
         }, status=status.HTTP_201_CREATED)
+
+
+class EmailOrUsernameTokenObtainPairView(TokenObtainPairView):
+    serializer_class = EmailOrUsernameTokenObtainPairSerializer
 
 
 class MyProfileView(generics.RetrieveUpdateAPIView):

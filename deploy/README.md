@@ -104,3 +104,24 @@ URLs :
 ```bash
 flutter run --dart-define=BASE_URL=https://boboexpress.onrender.com/api
 ```
+
+## Render
+
+Pour un service Render en Docker, laisse le champ **Docker Command** vide.
+Le `Dockerfile` contient deja la commande correcte avec `CMD`.
+
+Si Render oblige a renseigner une commande, utilise cette version avec shell
+explicite :
+
+```bash
+sh -c 'python manage.py migrate && python manage.py ensure_admin && python manage.py collectstatic --noinput && exec gunicorn BoboExpress.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers ${WEB_CONCURRENCY:-1}'
+```
+
+La commande integree au `Dockerfile` execute dans l'ordre :
+
+```bash
+python manage.py migrate
+python manage.py ensure_admin
+python manage.py collectstatic --noinput
+gunicorn BoboExpress.wsgi:application --bind 0.0.0.0:$PORT
+```

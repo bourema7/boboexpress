@@ -129,7 +129,18 @@ class AuthService extends ChangeNotifier {
           )
           .timeout(const Duration(seconds: 15));
 
-      final data = jsonDecode(utf8.decode(response.bodyBytes));
+      final responseText = utf8.decode(response.bodyBytes);
+      dynamic data;
+      try {
+        data = jsonDecode(responseText);
+      } catch (_) {
+        return {
+          'success': false,
+          'message':
+              'Le serveur ne repond pas en JSON. Verifie que l API est demarree et que BASE_URL est correcte.'
+        };
+      }
+
       if (response.statusCode == 201) {
         final loginSuccess = await login(username, password);
         return {'success': loginSuccess, 'message': 'Inscription réussie'};

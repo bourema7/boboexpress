@@ -23,7 +23,7 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
-from users.views import RegisterView
+from users.views import EmailOrUsernameTokenObtainPairView, RegisterView
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -40,7 +40,7 @@ urlpatterns = [
     path('', RedirectView.as_view(url='/api/', permanent=False)),
     path('admin/', admin.site.urls),
     path('api/auth/register/', RegisterView.as_view(), name='register'),
-    path('api/auth/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/auth/token/', EmailOrUsernameTokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/', RedirectView.as_view(url='/api/docs/', permanent=False), name='api_root'),
     path('api/users/', include('users.urls')),

@@ -77,7 +77,6 @@ USE_SQLITE = os.getenv('USE_SQLITE', 'True') == 'True'
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'replace-with-secure-key')
 
 if USE_SQLITE:
-    DEBUG = True
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',

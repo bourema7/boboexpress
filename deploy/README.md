@@ -40,7 +40,7 @@ Depuis la racine du projet :
 
 ```bash
 cd mobile
-flutter build web --release --dart-define=BASE_URL=https://boboexpress.com/api
+flutter build web --release --dart-define=BASE_URL=https://boboexpress.onrender.com/api
 cd ..
 ```
 
@@ -102,5 +102,5 @@ URLs :
 - Pour l'application Android physique, utiliser aussi l'URL publique :
 
 ```bash
-flutter run --dart-define=BASE_URL=https://boboexpress.com/api
+flutter run --dart-define=BASE_URL=https://boboexpress.onrender.com/api
 ```

@@ -34,7 +34,7 @@ jobs:
 
       - name: Build web
         working-directory: mobile
-        run: flutter build web --release --dart-define=BASE_URL=https://boboexpress.com/api
+        run: flutter build web --release --dart-define=BASE_URL=https://boboexpress.onrender.com/api
 
       - name: Configure custom domain
         run: |

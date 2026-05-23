@@ -37,7 +37,9 @@ jobs:
         run: flutter build web --release --dart-define=BASE_URL=https://boboexpress.com/api
 
       - name: Configure custom domain
-        run: echo "boboexpress.com" > mobile/build/web/CNAME
+        run: |
+          echo "boboexpress.com" > mobile/build/web/CNAME
+          touch mobile/build/web/.nojekyll
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

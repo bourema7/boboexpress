@@ -11,7 +11,7 @@ void main() async {
   runApp(
     EasyLocalization(
       supportedLocales: const [Locale('fr'), Locale('en')],
-      path: 'assets/translations',
+      path: 'assets/assets/translations',
       fallbackLocale: const Locale('fr'),
       child: const BoboExpressApp(),
     ),

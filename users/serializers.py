@@ -1,5 +1,8 @@
+import uuid
+
 from django.contrib.auth.models import User
 from django.contrib.auth.password_validation import validate_password
+from django.utils.text import slugify
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework import serializers
 
@@ -38,7 +41,7 @@ class RegisterSerializer(serializers.ModelSerializer):
         company_name = validated_data.pop('company_name', '')
         validated_data.pop('password2')
         user = User.objects.create_user(**validated_data)
-        UserProfile.objects.create(
+        profile = UserProfile.objects.create(
             user=user,
             role=role,
             phone=phone,
@@ -46,6 +49,19 @@ class RegisterSerializer(serializers.ModelSerializer):
             company_name=company_name,
             accepted_terms=True,
         )
+        if role == 'seller':
+            from stores.models import Store
+
+            store_name = company_name or f'Boutique {user.username}'
+            Store.objects.create(
+                owner=profile,
+                name=store_name,
+                slug=f'{slugify(store_name) or "boutique"}-{uuid.uuid4().hex[:6]}',
+                city=city or 'Bobo-Dioulasso',
+                phone=phone,
+                is_active=True,
+                is_approved=True,
+            )
         return user
 
 

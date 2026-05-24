@@ -289,6 +289,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   final keys = {
                     'Alimentation': 'categories.food',
                     'Beauté': 'categories.beauty',
+                    'Beaute': 'categories.beauty',
                     'Beaute et Soins': 'categories.beauty_care',
                     'Bijoux': 'categories.jewelry',
                     'Bijoux et Accessoires': 'categories.jewelry_accessories',
@@ -300,6 +301,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     'Femmes': 'categories.women',
                     'Mode': 'categories.fashion',
                     'Vêtements': 'categories.clothes',
+                    'Vetements': 'categories.clothes',
                     'Informatique': 'categories.computers',
                     'Maison': 'categories.home',
                     'Sacs': 'categories.bags',
@@ -307,6 +309,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     'Sport et Fitness': 'categories.sports_fitness',
                     'Accessoires': 'categories.accessories',
                     'Santé': 'categories.health',
+                    'Sante': 'categories.health',
                     'Automobile': 'categories.automotive',
                   };
                   String translatedName = keys[c['name']]?.tr() ?? c['name'];

@@ -2,6 +2,14 @@ import 'package:geolocator/geolocator.dart';
 import 'package:geocoding/geocoding.dart';
 
 class LocationService {
+  static Future<void> openLocationSettings() async {
+    await Geolocator.openLocationSettings();
+  }
+
+  static Future<void> openAppSettings() async {
+    await Geolocator.openAppSettings();
+  }
+
   /// Récupère les coordonnées GPS et l'adresse actuelle (Ville, Quartier, Rue)
   static Future<Map<String, dynamic>?> getCurrentLocationData() async {
     bool serviceEnabled;
@@ -22,7 +30,7 @@ class LocationService {
 
     if (permission == LocationPermission.deniedForever) {
       return Future.error(
-          'Les permissions de localisation sont refusées de façon permanente.');
+          'La localisation est bloquee pour cette application. Autorisez-la dans les reglages du telephone ou du navigateur.');
     }
 
     Position position = await Geolocator.getCurrentPosition(

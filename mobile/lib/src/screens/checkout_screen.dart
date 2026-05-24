@@ -128,6 +128,38 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
     }
   }
 
+  Future<void> _showLocationHelpDialog(String message) async {
+    if (!mounted) return;
+    await showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: Colors.white,
+        surfaceTintColor: Colors.white,
+        title: const Text(
+          'Position indisponible',
+          style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+        ),
+        content: Text(
+          message,
+          style: const TextStyle(color: Colors.black87),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Remplir manuellement'),
+          ),
+          TextButton(
+            onPressed: () async {
+              Navigator.pop(context);
+              await LocationService.openAppSettings();
+            },
+            child: const Text('Ouvrir les reglages'),
+          ),
+        ],
+      ),
+    );
+  }
+
   Future<void> _showAddAddressDialog() async {
     final streetController = TextEditingController();
     final cityController = TextEditingController();
@@ -135,14 +167,20 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
     double? lat;
     double? lng;
     bool isDetecting = false;
+    String? locationError;
 
     await showDialog(
       context: context,
       builder: (context) => StatefulBuilder(
         builder: (context, setStateDialog) => AlertDialog(
+          backgroundColor: Colors.white,
+          surfaceTintColor: Colors.white,
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-          title: const Text('Nouvelle adresse'),
+          title: const Text(
+            'Nouvelle adresse',
+            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+          ),
           content: SingleChildScrollView(
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -172,13 +210,13 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                                   data['city'] ?? 'Bobo-Dioulasso';
                               lat = data['latitude'];
                               lng = data['longitude'];
+                              setStateDialog(() => locationError = null);
                             }
                           } catch (e) {
-                            ScaffoldMessenger.of(this.context).showSnackBar(
-                              SnackBar(
-                                  content: Text('Erreur: $e'),
-                                  backgroundColor: Colors.red),
-                            );
+                            setStateDialog(() {
+                              locationError =
+                                  'Position bloquee. Autorisez la localisation dans les reglages du navigateur, ou remplissez l adresse manuellement.';
+                            });
                           } finally {
                             setStateDialog(() => isDetecting = false);
                           }
@@ -199,21 +237,61 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                     minimumSize: const Size(double.infinity, 45),
                   ),
                 ),
+                if (locationError != null) ...[
+                  const SizedBox(height: 10),
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: const Color(0xFFFFF1ED),
+                      borderRadius: BorderRadius.circular(10),
+                      border:
+                          Border.all(color: const Color(0xFFFA7456)),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          locationError!,
+                          style: const TextStyle(
+                              color: Color(0xFF7C2D12), fontSize: 12),
+                        ),
+                        const SizedBox(height: 8),
+                        TextButton.icon(
+                          onPressed: () => LocationService.openAppSettings(),
+                          icon: const Icon(Icons.settings, size: 16),
+                          label: const Text('Ouvrir les reglages'),
+                          style: TextButton.styleFrom(
+                            primary: const Color(0xFFFA7456),
+                            padding: EdgeInsets.zero,
+                            minimumSize: const Size(0, 32),
+                            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
                 const SizedBox(height: 16),
                 const Text('OU REMPLIR MANUELLEMENT',
                     style: TextStyle(
-                        fontSize: 10, color: Colors.grey, letterSpacing: 1)),
+                        fontSize: 10,
+                        color: Colors.black54,
+                        letterSpacing: 1)),
                 const SizedBox(height: 8),
                 TextField(
                     controller: labelController,
+                    style: const TextStyle(color: Colors.black),
                     decoration: const InputDecoration(
                         labelText: 'Nom (ex: Maison, Bureau)')),
                 TextField(
                     controller: streetController,
+                    style: const TextStyle(color: Colors.black),
                     decoration:
                         const InputDecoration(labelText: 'Rue / Quartier')),
                 TextField(
                     controller: cityController,
+                    style: const TextStyle(color: Colors.black),
                     decoration: const InputDecoration(labelText: 'Ville')),
               ],
             ),

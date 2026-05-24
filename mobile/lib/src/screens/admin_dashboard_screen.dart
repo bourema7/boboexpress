@@ -610,10 +610,11 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
 
       return Card(
         key: ValueKey('order_${id}_$status'),
+        color: Colors.white,
         margin: const EdgeInsets.only(bottom: 16),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         clipBehavior: Clip.antiAlias,
-        elevation: 2,
+        elevation: 1,
         child: Container(
           decoration: BoxDecoration(
             border: Border(
@@ -626,25 +627,35 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
                   children: [
                     Flexible(
                       child: Text(
-                        'Commande #$id',
+                        'Cmd #$id',
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(fontWeight: FontWeight.bold),
+                        style: const TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15),
                       ),
                     ),
                     const SizedBox(width: 8),
                     Flexible(
                       child: Text(
-                        '($status)',
+                        statusDisplay,
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
-                        style:
-                            const TextStyle(fontSize: 10, color: Colors.grey),
+                        style: TextStyle(
+                            fontSize: 11,
+                            color: _getStatusColor(status),
+                            fontWeight: FontWeight.bold),
                       ),
                     ),
                   ],
                 ),
-                subtitle: Text('$total XOF • $statusDisplay'),
+                subtitle: Text(
+                  '$total XOF • $statusDisplay',
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(color: Colors.black87, fontSize: 12),
+                ),
                 trailing: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
@@ -666,14 +677,16 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
                       },
                     ),
                     SizedBox(
-                      width: 82,
+                      width: 112,
                       child: Text(
                         trackingCode,
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         textAlign: TextAlign.right,
                         style: const TextStyle(
-                            fontSize: 10, fontWeight: FontWeight.bold),
+                            color: Colors.black87,
+                            fontSize: 10,
+                            fontWeight: FontWeight.bold),
                       ),
                     ),
                   ],
@@ -693,10 +706,19 @@ class _AdminDashboardScreenState extends State<AdminDashboardScreen> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text('${item['quantity'] ?? 1}x $prodName',
-                                style: const TextStyle(fontSize: 12)),
+                            Expanded(
+                              child: Text(
+                                '${item['quantity'] ?? 1}x $prodName',
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
+                                style: const TextStyle(
+                                    color: Colors.black87, fontSize: 12),
+                              ),
+                            ),
+                            const SizedBox(width: 12),
                             Text('${item['line_total'] ?? 0} XOF',
-                                style: const TextStyle(fontSize: 12)),
+                                style: const TextStyle(
+                                    color: Colors.black87, fontSize: 12)),
                           ],
                         ),
                       );

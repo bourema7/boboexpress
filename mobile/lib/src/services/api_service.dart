@@ -450,7 +450,7 @@ class ApiService {
     final response = await post('/products/categories/', {
       'name': name,
       'description': description ?? '',
-      'image_url': imageUrl ?? '',
+      'icon_url': imageUrl ?? '',
     });
     return response.statusCode == 201;
   }
@@ -460,7 +460,7 @@ class ApiService {
     final response = await patch('/products/categories/$id/', {
       'name': name,
       'description': description ?? '',
-      'image_url': imageUrl ?? '',
+      'icon_url': imageUrl ?? '',
     });
     return response.statusCode == 200;
   }

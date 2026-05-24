@@ -4,3 +4,14 @@ services:
     env: docker
     dockerfilePath: ./Dockerfile
     autoDeploy: true
+    disk:
+      name: boboexpress-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: USE_SQLITE
+        value: "True"
+      - key: SQLITE_NAME
+        value: /var/data/db.sqlite3
+      - key: MEDIA_ROOT
+        value: /var/data/media

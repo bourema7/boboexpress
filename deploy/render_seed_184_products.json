@@ -1,0 +1,6702 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$xCJiWtzTEgnvmja95Q42I7$lHTNANKcWvr5927qtfahxw2MWoMW4NaJQtlYuKDMo1A=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "seller1",
+    "first_name": "",
+    "last_name": "",
+    "email": "seller1@bobomarket.local",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-02T08:53:08.164Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$i7Izgy3IgVjljeDeQomGKa$ZCoznEAgZZwBrVooHPl6UPvU+xmqga+yO5EG1iFsCH8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer1",
+    "first_name": "",
+    "last_name": "",
+    "email": "customer1@bobomarket.local",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-02T08:53:08.932Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ZlGBPEnbOXEDa18NOjMq49$HnWU/obdPUEUXZqsYIbFdb6IhSH1nl15sSBDy82Mt8E=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "delivery1",
+    "first_name": "",
+    "last_name": "",
+    "email": "delivery1@bobomarket.local",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-02T08:53:09.657Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$hkpb1hmwWjTGzakwBTwVgE$5YVOv3oGPYnUTfHEmVJ3nfg6NHy5ve04qMzQj6w1CAQ=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "KOTE",
+    "first_name": "",
+    "last_name": "",
+    "email": "bouremakote2@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-02T20:46:04.424Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$2c9u7uNL2q8lEHRLJGdSqQ$1gue1Mz6cJFqoGESRwr0PFCVOvsoE6SvfjsDk2+D5CI=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "BOUREIMA",
+    "first_name": "",
+    "last_name": "",
+    "email": "orokiakonate404@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-02T22:16:29.802Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$T5gK7LW5beXM3zVqVcFc5L$pqcHL12X58gmuvIYlKdxL7gtBC0UCaF26iepzoL1BUw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "OROKIA",
+    "first_name": "",
+    "last_name": "",
+    "email": "orokia300@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-04T10:35:28.040Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$FgCw1rf4v1ctjScs3DvXrX$qBUqNNrnKNIH2D5HGFCh43yMnqNGrvP6Rl8roN5jlos=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "MINA",
+    "first_name": "",
+    "last_name": "",
+    "email": "mina300@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-04T11:29:04.859Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$IActu2cMFNf4V1qe3OX2h1$KJPMIsQe3Xo0Hqs9QDZpJWG29buDL7yoTzmZ0RetzlU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "YOUSS",
+    "first_name": "",
+    "last_name": "",
+    "email": "youss300@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-04T11:42:52.189Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$gQpjpdwywMK7ani7wF3txU$Dq6eUf9+QZhOz2UMB8pszmD6VfAGWCWXqXvI73pMg/U=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ALI",
+    "first_name": "",
+    "last_name": "",
+    "email": "ali202@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-04T12:18:26.924Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$ZmegvfFFZ993A4jjqq637B$lhkKDIGzpgKwKaNSJbsPtW15ACf5WZ69MmFieyvlnd8=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "BOUREMA",
+    "first_name": "",
+    "last_name": "",
+    "email": "bouremakote2@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-04T17:35:50.822Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$jVkgekdCDimxYKMQzd7M5h$tDlOcA8GHOUPQ17CPzUkWMxuwUgoj0iykAXSAc6k7H8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "moussa_fast",
+    "first_name": "Moussa",
+    "last_name": "Traoré",
+    "email": "moussa_fast@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-09T13:45:53.662Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$8AKAziVIag2EIh7VJInFYz$xkiaFelxvEQ9cbwCIgWv2BhunoQAMrUj4QJIrhTba/Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ali_delivery",
+    "first_name": "Ali",
+    "last_name": "Ouédraogo",
+    "email": "ali_delivery@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-09T13:45:53.997Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$rECfwisJrXqm5aSd5CdDlQ$TBev4YKdMuS7axpAv8/QDiF3Ledi98c5S62PTN9RNFo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "souleymane_express",
+    "first_name": "Souleymane",
+    "last_name": "Koné",
+    "email": "souleymane_express@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-09T13:45:54.326Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$mY2JRcsm3NF2XOinAcTjqM$8DmQxivdIL1qdD+TVm4Yv9xVM1DiNoBbTaFG1WWR3xA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ibrahim_moto",
+    "first_name": "Ibrahim",
+    "last_name": "Sangaré",
+    "email": "ibrahim_moto@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-09T13:45:54.636Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$QQH47MG00qGpbZ8YF5Ou1Z$M+blAVOQhFPAVk8eZ727l8fNlj2axbXejxrv2E0WKuA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "yacouba_flash",
+    "first_name": "Yacouba",
+    "last_name": "Barry",
+    "email": "yacouba_flash@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-09T13:45:54.953Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$OVyjdmB5MGGgyAhRpkPgR4$vNplwwQe5n4Js1w8A367mGvjBXGALmc3E1h4nwjQBjE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ibk",
+    "first_name": "",
+    "last_name": "",
+    "email": "bouremakote3@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-10T14:18:56.497Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$9QCCGjq3IsTIlRVrp9f1Qu$6yBRHeoLVyA4t1h3mIjq+0eRN2zvtXwcmNKF2E9CCNY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Emma",
+    "first_name": "",
+    "last_name": "",
+    "email": "emmanuelfirlouolowetienleonels@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-10T15:25:41.384Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$lsBlHfIip1vmY2jsWNWLAu$T6q8Gx2vnxI5nUeAJitMvioZnvFUFrsPPHtuO6kGhfA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "G10",
+    "first_name": "",
+    "last_name": "",
+    "email": "leonels@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-10T16:33:03.025Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$OHNGvWYDu5FhtesXYORyNw$njgD1aHXsW3eu4yM6bZshH+PpZ8e1l1v1FrrNFRZ8iM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser_auto",
+    "first_name": "",
+    "last_name": "",
+    "email": "test_auto@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T10:12:47.097Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$gYWgAYrRQju2VPlCdZdvs6$XV7FHsk91h1KI00fvGHyczgxU63Y8R4PKnJ7XI+x5lM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "IB",
+    "first_name": "",
+    "last_name": "",
+    "email": "bouremakote@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T10:17:05.492Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Dy7TGhAZTg3orZa2TYDun8$8newKlarLEiMy8B8Q/RXFhcUPvGAXcSL9y2KNZEOhmY=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "bobo_admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@boboexpress.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-11T10:24:16.880Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 22,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$FRu4LoPti87P8ZrGHfPGXS$sD3G7CPv18jTJ6Jv/1TjqGNw64RuIIFhD5VfP25xV4Q=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "KOTE7",
+    "first_name": "",
+    "last_name": "",
+    "email": "bouremakote2@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-11T10:33:26.482Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$gSEhJKLvmFoCgKNv6qRZM4$sBX2txGUj+hPI+sr+zflOLfEIQf8l3EGYvlGXz4dkRM=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "BOUREMA7",
+    "first_name": "",
+    "last_name": "",
+    "email": "koteboureima6@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-12T06:51:58.712Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 24,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$HyyvaPc9BQPl0XSYqnm8PX$avKvDUboSGcKoEmc/0SMe5eD4v5t/c3k46OYEVEnr4A=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "leonnie",
+    "first_name": "",
+    "last_name": "",
+    "email": "leonniedabone@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-12T09:01:08.168Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 25,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$kBW2X9BrolGNynDGqEo5Cx$q1sboctMHklrhOgEBzayvsIK8UKJFYMDq8WHAd2g8y8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "IBK",
+    "first_name": "",
+    "last_name": "",
+    "email": "bouremakote1@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-12T09:40:19.072Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 26,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$0SYvyG9uJdyEc23YeHQJqO$9KBrH/lDMlTUUuTQTd8fTSXoPwgzozBKumdzCQd0QxA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "acheter",
+    "first_name": "",
+    "last_name": "",
+    "email": "bouremakote4@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-12T10:14:11.379Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 27,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$VXofAB4I1CRfYjiE8XzrmN$WMk5k/phjz+2PsulGxn+n0ZoUjQ1uQw1sxt0qH8QJak=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "livrer",
+    "first_name": "",
+    "last_name": "",
+    "email": "bouremakote9@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-13T06:49:42.385Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 28,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$6yT0xxmU90FURLSTe7sL1i$qcPNiKv6js++cJNZ7LAk36SF68I/hrrt3rdzPCZkrNY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "brinel",
+    "first_name": "",
+    "last_name": "",
+    "email": "boureimakote9@gmail.com",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2026-05-13T12:35:51.919Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 29,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$zZMeMUAxkAYhwvcoKtN9zm$X8xeCdj3kSabFAve3yYwvHYFkjEn0dWodnWnUGe87/c=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "seller_test_3c2777",
+    "first_name": "",
+    "last_name": "",
+    "email": "seller_test_3c2777@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-23T20:14:26.562Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 30,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$KoDZZ5NMMZa5tKFsn4WxzS$I/FmQsKn+zjGNIY/el6lBkshEm91ObmjHjMEOuHEE5c=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "codex_assign_buyer",
+    "first_name": "",
+    "last_name": "",
+    "email": "buyer@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-24T07:34:59.494Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 31,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "codex_assign_driver",
+    "first_name": "",
+    "last_name": "",
+    "email": "driver@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-24T07:34:59.755Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 32,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "codex_assign_seller",
+    "first_name": "",
+    "last_name": "",
+    "email": "seller@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-24T07:34:59.774Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 4,
+    "role": "admin",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": true,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-03T00:14:34.107Z",
+    "updated_at": "2026-05-05T07:39:32.910Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": 5,
+    "role": "admin",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-03T10:24:29.498Z",
+    "updated_at": "2026-05-03T10:24:29.498Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 3,
+  "fields": {
+    "user": 6,
+    "role": "delivery",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-04T10:35:28.844Z",
+    "updated_at": "2026-05-04T10:35:43.909Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 4,
+  "fields": {
+    "user": 7,
+    "role": "delivery",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": false,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-04T11:29:05.531Z",
+    "updated_at": "2026-05-04T11:29:05.531Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 5,
+  "fields": {
+    "user": 8,
+    "role": "seller",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-04T11:42:52.912Z",
+    "updated_at": "2026-05-04T11:42:52.912Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 6,
+  "fields": {
+    "user": 9,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-04T12:18:27.634Z",
+    "updated_at": "2026-05-04T12:18:27.634Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 7,
+  "fields": {
+    "user": 10,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-04T17:35:51.571Z",
+    "updated_at": "2026-05-04T17:35:51.571Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 8,
+  "fields": {
+    "user": 11,
+    "role": "delivery",
+    "phone": "+226 70 12 34 56",
+    "city": "Bobo-Dioulasso",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": true,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "4.80",
+    "total_deliveries": 87,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-09T13:45:53.985Z",
+    "updated_at": "2026-05-09T13:45:53.990Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 9,
+  "fields": {
+    "user": 12,
+    "role": "delivery",
+    "phone": "+226 71 22 33 44",
+    "city": "Bobo-Dioulasso",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": true,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "4.90",
+    "total_deliveries": 76,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-09T13:45:54.314Z",
+    "updated_at": "2026-05-09T13:45:54.319Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 10,
+  "fields": {
+    "user": 13,
+    "role": "delivery",
+    "phone": "+226 65 00 11 22",
+    "city": "Bobo-Dioulasso",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": true,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "4.70",
+    "total_deliveries": 98,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-09T13:45:54.627Z",
+    "updated_at": "2026-05-09T13:45:54.631Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 11,
+  "fields": {
+    "user": 14,
+    "role": "delivery",
+    "phone": "+226 75 99 88 77",
+    "city": "Bobo-Dioulasso",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": true,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "4.50",
+    "total_deliveries": 78,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-09T13:45:54.942Z",
+    "updated_at": "2026-05-09T13:45:54.947Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 12,
+  "fields": {
+    "user": 15,
+    "role": "delivery",
+    "phone": "+226 60 44 55 66",
+    "city": "Bobo-Dioulasso",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": true,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 42,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-09T13:45:55.256Z",
+    "updated_at": "2026-05-09T13:45:55.260Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 13,
+  "fields": {
+    "user": 16,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-10T14:18:57.128Z",
+    "updated_at": "2026-05-10T14:18:57.128Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 14,
+  "fields": {
+    "user": 17,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "profiles/image_picker5819185304730564819.jpg",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-10T15:25:42.300Z",
+    "updated_at": "2026-05-10T16:29:33.852Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 15,
+  "fields": {
+    "user": 18,
+    "role": "delivery",
+    "phone": "62322890",
+    "city": "Bobo-Dioulasso",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "profiles/image_picker1050303503030488537.jpg",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-10T16:33:03.551Z",
+    "updated_at": "2026-05-10T16:33:53.079Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 16,
+  "fields": {
+    "user": 19,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-11T10:12:47.356Z",
+    "updated_at": "2026-05-11T10:12:47.356Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 17,
+  "fields": {
+    "user": 20,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-11T10:17:05.904Z",
+    "updated_at": "2026-05-11T10:17:05.905Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 18,
+  "fields": {
+    "user": 21,
+    "role": "admin",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": true,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-11T10:24:17.142Z",
+    "updated_at": "2026-05-12T06:44:44.410Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 19,
+  "fields": {
+    "user": 22,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-11T14:25:17.801Z",
+    "updated_at": "2026-05-11T14:25:17.801Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 20,
+  "fields": {
+    "user": 23,
+    "role": "admin",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": true,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-12T07:00:45.469Z",
+    "updated_at": "2026-05-12T07:00:45.469Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 21,
+  "fields": {
+    "user": 24,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-12T09:01:09.070Z",
+    "updated_at": "2026-05-12T09:01:09.070Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 22,
+  "fields": {
+    "user": 25,
+    "role": "seller",
+    "phone": "67774512",
+    "city": "Bobo",
+    "company_name": "BK",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-12T09:40:19.848Z",
+    "updated_at": "2026-05-12T09:40:19.848Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 23,
+  "fields": {
+    "user": 26,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-12T10:14:12.147Z",
+    "updated_at": "2026-05-12T10:14:12.147Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 24,
+  "fields": {
+    "user": 27,
+    "role": "delivery",
+    "phone": "67774512",
+    "city": "BObo",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-13T06:49:42.909Z",
+    "updated_at": "2026-05-13T06:49:42.909Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 25,
+  "fields": {
+    "user": 28,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": true,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-13T12:35:52.202Z",
+    "updated_at": "2026-05-17T10:49:56.433Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 26,
+  "fields": {
+    "user": 29,
+    "role": "seller",
+    "phone": "70000000",
+    "city": "Bobo-Dioulasso",
+    "company_name": "Boutique Test Auto",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-23T20:14:27.354Z",
+    "updated_at": "2026-05-23T20:14:27.354Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 27,
+  "fields": {
+    "user": 30,
+    "role": "customer",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": true,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-24T07:34:59.750Z",
+    "updated_at": "2026-05-24T07:34:59.750Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 28,
+  "fields": {
+    "user": 31,
+    "role": "delivery",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-24T07:34:59.764Z",
+    "updated_at": "2026-05-24T07:34:59.769Z"
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 29,
+  "fields": {
+    "user": 32,
+    "role": "seller",
+    "phone": "",
+    "city": "",
+    "company_name": "",
+    "document_id": "",
+    "driver_license": "",
+    "wallet_balance": "0.00",
+    "is_verified": false,
+    "is_blocked": false,
+    "accepted_terms": false,
+    "profile_image": "",
+    "rating": "5.00",
+    "total_deliveries": 0,
+    "is_available": true,
+    "current_lat": null,
+    "current_lng": null,
+    "created_at": "2026-05-24T07:34:59.779Z",
+    "updated_at": "2026-05-24T07:34:59.786Z"
+  }
+},
+{
+  "model": "stores.store",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "name": "Boutique BoboExpress",
+    "slug": "boboexpress-c1d229",
+    "description": "",
+    "type": "other",
+    "category": null,
+    "city": "Bobo-Dioulasso",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "phone": "",
+    "logo_url": "",
+    "cover_url": "",
+    "opening_hours": {},
+    "is_active": true,
+    "is_approved": true,
+    "is_premium": false,
+    "premium_expires_at": null,
+    "commission_rate": "5.00",
+    "momo_type": "orange",
+    "momo_number": "",
+    "average_rating": "0.00",
+    "total_orders": 0,
+    "created_at": "2026-05-03T11:02:15.036Z",
+    "updated_at": "2026-05-03T11:02:15.037Z"
+  }
+},
+{
+  "model": "stores.store",
+  "pk": 2,
+  "fields": {
+    "owner": 5,
+    "name": "Boutique de YOUSS",
+    "slug": "boutique-de-youss-940349",
+    "description": "",
+    "type": "other",
+    "category": null,
+    "city": "Bobo-Dioulasso",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "phone": "",
+    "logo_url": "",
+    "cover_url": "",
+    "opening_hours": {},
+    "is_active": true,
+    "is_approved": true,
+    "is_premium": false,
+    "premium_expires_at": null,
+    "commission_rate": "5.00",
+    "momo_type": "orange",
+    "momo_number": "",
+    "average_rating": "0.00",
+    "total_orders": 0,
+    "created_at": "2026-05-12T09:48:43.830Z",
+    "updated_at": "2026-05-12T09:48:43.830Z"
+  }
+},
+{
+  "model": "stores.store",
+  "pk": 3,
+  "fields": {
+    "owner": 22,
+    "name": "Boutique de IBK",
+    "slug": "boutique-de-ibk-89fc2b",
+    "description": "",
+    "type": "other",
+    "category": null,
+    "city": "Bobo-Dioulasso",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "phone": "",
+    "logo_url": "",
+    "cover_url": "",
+    "opening_hours": {},
+    "is_active": true,
+    "is_approved": true,
+    "is_premium": false,
+    "premium_expires_at": null,
+    "commission_rate": "5.00",
+    "momo_type": "orange",
+    "momo_number": "",
+    "average_rating": "0.00",
+    "total_orders": 0,
+    "created_at": "2026-05-12T09:48:43.839Z",
+    "updated_at": "2026-05-12T09:48:43.839Z"
+  }
+},
+{
+  "model": "stores.store",
+  "pk": 4,
+  "fields": {
+    "owner": 26,
+    "name": "Boutique Test Auto",
+    "slug": "boutique-test-auto-41e26c",
+    "description": "",
+    "type": "other",
+    "category": null,
+    "city": "Bobo-Dioulasso",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "phone": "70000000",
+    "logo_url": "",
+    "cover_url": "",
+    "opening_hours": {},
+    "is_active": true,
+    "is_approved": true,
+    "is_premium": false,
+    "premium_expires_at": null,
+    "commission_rate": "5.00",
+    "momo_type": "orange",
+    "momo_number": "",
+    "average_rating": "0.00",
+    "total_orders": 0,
+    "created_at": "2026-05-23T20:14:27.369Z",
+    "updated_at": "2026-05-23T20:14:27.369Z"
+  }
+},
+{
+  "model": "stores.store",
+  "pk": 5,
+  "fields": {
+    "owner": 29,
+    "name": "Codex Store",
+    "slug": "codex-assign-store",
+    "description": "",
+    "type": "other",
+    "category": null,
+    "city": "Bobo-Dioulasso",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "phone": "",
+    "logo_url": "",
+    "cover_url": "",
+    "opening_hours": {},
+    "is_active": true,
+    "is_approved": true,
+    "is_premium": false,
+    "premium_expires_at": null,
+    "commission_rate": "5.00",
+    "momo_type": "orange",
+    "momo_number": "",
+    "average_rating": "0.00",
+    "total_orders": 0,
+    "created_at": "2026-05-24T07:34:59.793Z",
+    "updated_at": "2026-05-24T07:34:59.793Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Femmes",
+    "slug": "femmes",
+    "icon_url": "",
+    "description": "",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Hommes",
+    "slug": "hommes",
+    "icon_url": "",
+    "description": "",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Enfants",
+    "slug": "enfants",
+    "icon_url": "",
+    "description": "",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Chaussures",
+    "slug": "chaussures",
+    "icon_url": "",
+    "description": "",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Sacs",
+    "slug": "sacs",
+    "icon_url": "",
+    "description": "",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "name": "Maison",
+    "slug": "maison",
+    "icon_url": "",
+    "description": "",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "name": "Electronique",
+    "slug": "electronique",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/3659/3659899.png",
+    "description": "Smartphones, accessoires tech et gadgets",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 8,
+  "fields": {
+    "name": "Beaute et Soins",
+    "slug": "beaute-soins",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/2589/2589154.png",
+    "description": "Cosmetiques, parfums et soins du corps",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 9,
+  "fields": {
+    "name": "Sport et Fitness",
+    "slug": "sport-fitness",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/857/857455.png",
+    "description": "Equipements sportifs et tenues de sport",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 10,
+  "fields": {
+    "name": "Alimentation",
+    "slug": "alimentation",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/3565/3565418.png",
+    "description": "Produits alimentaires locaux et importes",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 11,
+  "fields": {
+    "name": "Bijoux et Accessoires",
+    "slug": "bijoux-accessoires",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/3225/3225190.png",
+    "description": "Bijoux, montres et accessoires de mode",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 12,
+  "fields": {
+    "name": "Informatique",
+    "slug": "informatique",
+    "icon_url": "https://cdn-icons-png.flaticon.com/512/2621/2621244.png",
+    "description": "Ordinateurs, peripheriques et logiciels",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 13,
+  "fields": {
+    "name": "Mode",
+    "slug": "mode",
+    "icon_url": "",
+    "description": "Vetements, chaussures et accessoires",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 14,
+  "fields": {
+    "name": "Beaute",
+    "slug": "beaute",
+    "icon_url": "",
+    "description": "Cosmetiques, parfums et soins",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 15,
+  "fields": {
+    "name": "Sport",
+    "slug": "sport",
+    "icon_url": "",
+    "description": "Articles de sport et fitness",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 16,
+  "fields": {
+    "name": "Divers",
+    "slug": "divers",
+    "icon_url": "",
+    "description": "Autres articles",
+    "is_active": true
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "PONITAIL",
+    "slug": "ponitail-68d5bd",
+    "description": "Belle peruque pour femme",
+    "price": "3000.00",
+    "stock": 38,
+    "image_url": "",
+    "image": "products/P3.jpeg",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-03T11:02:15.100Z",
+    "updated_at": "2026-05-03T23:51:27.066Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "LEINE",
+    "slug": "leine-17d9f5",
+    "description": "BELLE PERUQUE POUR FEMME",
+    "price": "4000.00",
+    "stock": 14,
+    "image_url": "",
+    "image": "products/P3_7uJyLE9.jpeg",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-03T11:08:07.061Z",
+    "updated_at": "2026-05-04T00:24:05.566Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "MECHE",
+    "slug": "meche-d4defe",
+    "description": "Belle peruque pour femme et pour jeune fille",
+    "price": "7000.00",
+    "stock": 15,
+    "image_url": "",
+    "image": "products/P3_VfnCrzm.jpeg",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-03T11:10:39.893Z",
+    "updated_at": "2026-05-18T10:41:48.520Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Iphone",
+    "slug": "iphone-01d272",
+    "description": "Beau iphone de la maison apple",
+    "price": "500000.00",
+    "stock": 6,
+    "image_url": "",
+    "image": "products/Iphone_16.jpeg",
+    "is_active": false,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-03T11:24:25.725Z",
+    "updated_at": "2026-05-04T00:30:58.086Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Robe Wax Elegante",
+    "slug": "robe-wax-elegante",
+    "description": "Belle robe en tissu wax aux couleurs vives.",
+    "price": "15000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.021Z",
+    "updated_at": "2026-05-04T00:45:54.021Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Chemisier Floral Leger",
+    "slug": "chemisier-floral-leger",
+    "description": "Chemisier fluide a motifs floraux.",
+    "price": "8500.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1581338834647-b0fb40704e21?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.029Z",
+    "updated_at": "2026-05-04T00:45:54.029Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Jupe Longue Boheme",
+    "slug": "jupe-longue-boheme",
+    "description": "Jupe longue style boheme en coton leger.",
+    "price": "12000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.035Z",
+    "updated_at": "2026-05-04T00:45:54.035Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Ensemble Tailleur Africain",
+    "slug": "ensemble-tailleur-africain",
+    "description": "Tailleur 2 pieces en tissu kente.",
+    "price": "22000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.043Z",
+    "updated_at": "2026-05-04T00:45:54.043Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "T-shirt Femme Premium",
+    "slug": "t-shirt-femme-premium",
+    "description": "T-shirt en coton 100% doux, coupe ajustee.",
+    "price": "5500.00",
+    "stock": 50,
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.052Z",
+    "updated_at": "2026-05-04T00:45:54.052Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Combinaison Pantalon Femme",
+    "slug": "combinaison-pantalon-femme",
+    "description": "Combinaison pantalon chic en tissu satine.",
+    "price": "18000.00",
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1566206091558-7f218b696731?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.060Z",
+    "updated_at": "2026-05-04T00:45:54.060Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Robe de Soiree Doree",
+    "slug": "robe-de-soiree-doree",
+    "description": "Robe de soiree elegante aux reflets dores.",
+    "price": "28000.00",
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.068Z",
+    "updated_at": "2026-05-04T00:45:54.068Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Legging Sportif Femme",
+    "slug": "legging-sportif-femme",
+    "description": "Legging taille haute ultra-confortable.",
+    "price": "7000.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.075Z",
+    "updated_at": "2026-05-04T00:45:54.075Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Veste Courte Tendance Femme",
+    "slug": "veste-courte-tendance-femme",
+    "description": "Veste courte style blazer moderne.",
+    "price": "16000.00",
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.084Z",
+    "updated_at": "2026-05-04T00:45:54.084Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Pyjama Satine Femme",
+    "slug": "pyjama-satine-femme",
+    "description": "Ensemble pyjama en satin doux 2 pieces.",
+    "price": "9500.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.092Z",
+    "updated_at": "2026-05-04T00:45:54.092Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Chemise Africaine Dashiki",
+    "slug": "chemise-africaine-dashiki",
+    "description": "Chemise dashiki coloree, tradition et modernite.",
+    "price": "11000.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.102Z",
+    "updated_at": "2026-05-04T00:45:54.102Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Pantalon Chino Slim Homme",
+    "slug": "pantalon-chino-slim-homme",
+    "description": "Pantalon chino coupe slim, elegant et polyvalent.",
+    "price": "13500.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.112Z",
+    "updated_at": "2026-05-04T00:45:54.112Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Polo Homme Classique",
+    "slug": "polo-homme-classique",
+    "description": "Polo manches courtes en coton pique.",
+    "price": "7500.00",
+    "stock": 45,
+    "image_url": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.121Z",
+    "updated_at": "2026-05-04T00:45:54.121Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Costume 3 Pieces Homme",
+    "slug": "costume-3-pieces-homme",
+    "description": "Costume elegant 3 pieces pour grandes occasions.",
+    "price": "45000.00",
+    "stock": 8,
+    "image_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.131Z",
+    "updated_at": "2026-05-04T00:45:54.131Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Jean Slim Homme",
+    "slug": "jean-slim-homme",
+    "description": "Jean slim stretch confortable coupe moderne.",
+    "price": "14000.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.140Z",
+    "updated_at": "2026-05-04T00:45:54.140Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Boubou Grand Seigneur",
+    "slug": "boubou-grand-seigneur",
+    "description": "Grand boubou brode a la main africain.",
+    "price": "25000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1529391409740-59f2cea08bc5?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.149Z",
+    "updated_at": "2026-05-04T00:45:54.149Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "T-shirt Graphique Homme",
+    "slug": "t-shirt-graphique-homme",
+    "description": "T-shirt imprime graphique tendance 100% coton.",
+    "price": "6000.00",
+    "stock": 60,
+    "image_url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.160Z",
+    "updated_at": "2026-05-04T00:45:54.160Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 23,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Veste en Jean Homme",
+    "slug": "veste-en-jean-homme",
+    "description": "Veste en jean delave style casual indemodable.",
+    "price": "19500.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.179Z",
+    "updated_at": "2026-05-04T00:45:54.179Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 24,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Ensemble Bebe 0-6 mois",
+    "slug": "ensemble-bebe-0-6-mois",
+    "description": "Ensemble body pantalon doux pour bebe coton hypoallergenique.",
+    "price": "7500.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.189Z",
+    "updated_at": "2026-05-04T00:45:54.189Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 25,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Robe Princesse Fille",
+    "slug": "robe-princesse-fille",
+    "description": "Robe de princesse avec tulle et strass pour anniversaires.",
+    "price": "9000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.199Z",
+    "updated_at": "2026-05-04T00:45:54.199Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 26,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Costume Petit Homme Enfant",
+    "slug": "costume-petit-homme-enfant",
+    "description": "Petit costume elegant pour garcon ceremonies.",
+    "price": "12500.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.210Z",
+    "updated_at": "2026-05-04T00:45:54.210Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 27,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Pyjama Enfant Animaux",
+    "slug": "pyjama-enfant-animaux",
+    "description": "Pyjama amusant motifs animaux coton doux.",
+    "price": "6500.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.222Z",
+    "updated_at": "2026-05-04T00:45:54.222Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 28,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Ensemble Sport Enfant",
+    "slug": "ensemble-sport-enfant",
+    "description": "Survetement sport leger pour enfant 4-12 ans.",
+    "price": "8000.00",
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.232Z",
+    "updated_at": "2026-05-04T00:45:54.232Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 29,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Tenue Africaine Enfant",
+    "slug": "tenue-africaine-enfant",
+    "description": "Tenue en tissu wax pour enfant ceremonies.",
+    "price": "10000.00",
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.240Z",
+    "updated_at": "2026-05-04T00:45:54.240Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 30,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Manteau Hiver Enfant",
+    "slug": "manteau-hiver-enfant",
+    "description": "Manteau chaud double pour nuits fraiches avec capuche.",
+    "price": "14000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1545048702-79362596cdc9?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.248Z",
+    "updated_at": "2026-05-04T00:45:54.248Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 31,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Sandales Plateformes Femme",
+    "slug": "sandales-plateformes-femme",
+    "description": "Sandales a plateforme tendance ideales pour ete.",
+    "price": "12000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.257Z",
+    "updated_at": "2026-05-04T00:45:54.257Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 32,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Baskets Homme Urbaines",
+    "slug": "baskets-homme-urbaines",
+    "description": "Baskets urbaines confortables et stylees semelle amortissante.",
+    "price": "18500.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.267Z",
+    "updated_at": "2026-05-04T00:45:54.267Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 33,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Escarpins Elegants Femme",
+    "slug": "escarpins-elegants-femme",
+    "description": "Escarpins talon 7cm chic et confortables.",
+    "price": "16000.00",
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.278Z",
+    "updated_at": "2026-05-04T00:45:54.278Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 34,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Mocassins Cuir Homme",
+    "slug": "mocassins-cuir-homme",
+    "description": "Mocassins en cuir veritable finition soignee.",
+    "price": "22000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.288Z",
+    "updated_at": "2026-05-04T00:45:54.288Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 35,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Tongs Plage Colorees",
+    "slug": "tongs-plage-colorees",
+    "description": "Tongs legeres et resistantes 8 coloris vifs.",
+    "price": "3500.00",
+    "stock": 60,
+    "image_url": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.299Z",
+    "updated_at": "2026-05-04T00:45:54.299Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 36,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Bottines Femme Mode",
+    "slug": "bottines-femme-mode",
+    "description": "Bottines montantes a lacets style western.",
+    "price": "24000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.308Z",
+    "updated_at": "2026-05-04T00:45:54.308Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 37,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Chaussures Bebe Premiers Pas",
+    "slug": "chaussures-bebe-premiers-pas",
+    "description": "Chaussures souples pour bebe premiers pas.",
+    "price": "5500.00",
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.318Z",
+    "updated_at": "2026-05-04T00:45:54.318Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 38,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Sneakers Running Unisex",
+    "slug": "sneakers-running-unisex",
+    "description": "Chaussures running legeres technologie amorti.",
+    "price": "21000.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.327Z",
+    "updated_at": "2026-05-04T00:45:54.327Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 39,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac a Main Cuir Femme",
+    "slug": "sac-a-main-cuir-femme",
+    "description": "Sac a main cuir PU qualite plusieurs compartiments.",
+    "price": "19000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.337Z",
+    "updated_at": "2026-05-04T00:45:54.337Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 40,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac a Dos Urbain",
+    "slug": "sac-a-dos-urbain",
+    "description": "Sac a dos anti-vol avec port USB voyage bureau.",
+    "price": "14500.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.347Z",
+    "updated_at": "2026-05-04T00:45:54.347Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 41,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Tote Bag Canvas Imprime",
+    "slug": "tote-bag-canvas-imprime",
+    "description": "Tote bag en toile imprime africain eco-responsable.",
+    "price": "5000.00",
+    "stock": 50,
+    "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.357Z",
+    "updated_at": "2026-05-04T00:45:54.357Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 42,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Pochette Soiree Doree",
+    "slug": "pochette-soiree-doree",
+    "description": "Pochette soiree doree avec chaine grandes occasions.",
+    "price": "8500.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.367Z",
+    "updated_at": "2026-05-04T00:45:54.367Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 43,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac Gym Sport",
+    "slug": "sac-gym-sport",
+    "description": "Sac sport leger spacieux poche chaussures separee.",
+    "price": "9000.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.377Z",
+    "updated_at": "2026-05-04T00:45:54.377Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 44,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac Bandouliere Homme",
+    "slug": "sac-bandouliere-homme",
+    "description": "Sac bandouliere compact tissu resistant style casual.",
+    "price": "12000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.387Z",
+    "updated_at": "2026-05-04T00:45:54.388Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 45,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac de Voyage Cabine",
+    "slug": "sac-de-voyage-cabine",
+    "description": "Sac voyage format cabine 40L resistant eau leger.",
+    "price": "22000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.399Z",
+    "updated_at": "2026-05-04T00:45:54.399Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 46,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Mini Sac Ceinture",
+    "slug": "mini-sac-ceinture",
+    "description": "Banane moderne style urbain pratique essentiel.",
+    "price": "6500.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.410Z",
+    "updated_at": "2026-05-04T00:45:54.410Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 47,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Housse Coussin Wax",
+    "slug": "housse-coussin-wax",
+    "description": "Housse coussin 45x45cm tissu wax authentique.",
+    "price": "4500.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.422Z",
+    "updated_at": "2026-05-04T00:45:54.422Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 48,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Natte Raphia Artisanale",
+    "slug": "natte-raphia-artisanale",
+    "description": "Natte tissee main fibres raphia 120x180cm.",
+    "price": "8000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.433Z",
+    "updated_at": "2026-05-04T00:45:54.433Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 49,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Set de Table Africain 6pcs",
+    "slug": "set-de-table-africain-6pcs",
+    "description": "Ensemble 6 sets table coton imprime style africain.",
+    "price": "12000.00",
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1490735891913-40897cdaafd1?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.443Z",
+    "updated_at": "2026-05-04T00:45:54.443Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 50,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Lanterne Decorative",
+    "slug": "lanterne-decorative",
+    "description": "Lanterne metal ajoure bougie LED ambiance deco.",
+    "price": "7500.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.453Z",
+    "updated_at": "2026-05-04T00:45:54.453Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 51,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Panier Rangement Osier",
+    "slug": "panier-rangement-osier",
+    "description": "Panier tresse osier naturel rangement decoration.",
+    "price": "9500.00",
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.464Z",
+    "updated_at": "2026-05-04T00:45:54.464Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 52,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Rideau Voilage Blanc",
+    "slug": "rideau-voilage-blanc",
+    "description": "Paire rideaux voilage 140x260cm effet lumineux.",
+    "price": "11000.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.474Z",
+    "updated_at": "2026-05-04T00:45:54.474Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 53,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Miroir Mural Rotin",
+    "slug": "miroir-mural-rotin",
+    "description": "Miroir encadre rotin naturel tendance boheme.",
+    "price": "18500.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1564078516393-cf04bd966897?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:45:54.485Z",
+    "updated_at": "2026-05-04T00:45:54.485Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 55,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Robe Pagne Bazin Riche",
+    "slug": "robe-pagne-bazin-riche",
+    "description": "Robe en bazin riche brode, tissu premium du Mali, parfaite pour les grandes ceremonies.",
+    "price": "35000.00",
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.712Z",
+    "updated_at": "2026-05-04T00:54:55.712Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 56,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Haut Crop Top Africain",
+    "slug": "haut-crop-top-africain",
+    "description": "Crop top en tissu kente colore, moderne et tendance pour jeunes femmes.",
+    "price": "6500.00",
+    "stock": 45,
+    "image_url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.726Z",
+    "updated_at": "2026-05-04T00:54:55.726Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 57,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Cardigan Long Femme",
+    "slug": "cardigan-long-femme",
+    "description": "Cardigan long en maille douce, confort et style au quotidien.",
+    "price": "13000.00",
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.736Z",
+    "updated_at": "2026-05-04T00:54:55.736Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 58,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Short Jeans Femme",
+    "slug": "short-jeans-femme",
+    "description": "Short en jean delave coupe moderne, ideal pour les sorties decontractees.",
+    "price": "9000.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.748Z",
+    "updated_at": "2026-05-04T00:54:55.748Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 59,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Blouse Soyeuse Femme",
+    "slug": "blouse-soyeuse-femme",
+    "description": "Blouse en soie artificielle, tombee parfaite pour look professionnel.",
+    "price": "11000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.758Z",
+    "updated_at": "2026-05-04T00:54:55.758Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 60,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Robe Maxi Imprimee",
+    "slug": "robe-maxi-imprimee",
+    "description": "Robe longue imprimee aux motifs tropicaux, legere et coloree.",
+    "price": "17000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.770Z",
+    "updated_at": "2026-05-04T00:54:55.770Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 61,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Ensemble Yoga Femme",
+    "slug": "ensemble-yoga-femme",
+    "description": "Set yoga brassiere et legging haute performance, tissu respirant.",
+    "price": "14500.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.785Z",
+    "updated_at": "2026-05-04T00:54:55.785Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 62,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Veste Kente Moderne",
+    "slug": "veste-kente-moderne",
+    "description": "Veste blazer en tissu kente traditionnel avec coupe occidentale moderne.",
+    "price": "24000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.798Z",
+    "updated_at": "2026-05-04T00:54:55.798Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 63,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Debardeur Fantaisie",
+    "slug": "debardeur-fantaisie",
+    "description": "Debardeur imprime fantaisie, leger et confortable pour ete.",
+    "price": "5000.00",
+    "stock": 55,
+    "image_url": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.810Z",
+    "updated_at": "2026-05-04T00:54:55.810Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 65,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Pull Over Femme Hiver",
+    "slug": "pull-over-femme-hiver",
+    "description": "Pull en laine douce col rond, chaud et elegante pour nuits fraiches.",
+    "price": "15000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.832Z",
+    "updated_at": "2026-05-04T00:54:55.833Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 66,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Salopette Jean Femme",
+    "slug": "salopette-jean-femme",
+    "description": "Salopette en jean tendance, look casual chic tres porte.",
+    "price": "19000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.841Z",
+    "updated_at": "2026-05-04T00:54:55.841Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 67,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Agbada Ceremonie Homme",
+    "slug": "agbada-ceremonie-homme",
+    "description": "Agbada brodee main en bazin blanc, tenue de grande ceremonie.",
+    "price": "55000.00",
+    "stock": 6,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.853Z",
+    "updated_at": "2026-05-04T00:54:55.853Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 68,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Chemise Col Mao Africain",
+    "slug": "chemise-col-mao-africain",
+    "description": "Chemise col mao en wax colore, style afro-contemporain elegant.",
+    "price": "10500.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.866Z",
+    "updated_at": "2026-05-04T00:54:55.866Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 69,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Pantalon Jogging Homme",
+    "slug": "pantalon-jogging-homme",
+    "description": "Pantalon jogging en coton gratonne confortable pour sport ou maison.",
+    "price": "8000.00",
+    "stock": 45,
+    "image_url": "https://images.unsplash.com/photo-1578763363228-6e8428de69b2?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.876Z",
+    "updated_at": "2026-05-04T00:54:55.876Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 70,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Blazer Decontracte Homme",
+    "slug": "blazer-decontracte-homme",
+    "description": "Blazer coupe moderne sans boutons, style smart casual impeccable.",
+    "price": "28000.00",
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.888Z",
+    "updated_at": "2026-05-04T00:54:55.888Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 71,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Henley Tee Homme",
+    "slug": "henley-tee-homme",
+    "description": "T-shirt henley manches courtes, coupe ajustee en coton premium.",
+    "price": "7000.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.899Z",
+    "updated_at": "2026-05-04T00:54:55.899Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 72,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Djellaba Homme Tradition",
+    "slug": "djellaba-homme-tradition",
+    "description": "Djellaba en coton fin, confortable et elegante pour toutes saisons.",
+    "price": "20000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.910Z",
+    "updated_at": "2026-05-04T00:54:55.910Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 73,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Short Bermuda Homme",
+    "slug": "short-bermuda-homme",
+    "description": "Bermuda stylise en coton, pratique pour chaleur et loisirs.",
+    "price": "8500.00",
+    "stock": 38,
+    "image_url": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.921Z",
+    "updated_at": "2026-05-04T00:54:55.921Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 74,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Sweatshirt Capuche Homme",
+    "slug": "sweatshirt-capuche-homme",
+    "description": "Sweat a capuche en coton molletonne, style streetwear.",
+    "price": "12000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.932Z",
+    "updated_at": "2026-05-04T00:54:55.932Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 75,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Cravate Soie Homme",
+    "slug": "cravate-soie-homme",
+    "description": "Cravate en soie tissee, accompagne parfaitement costume ou chemise.",
+    "price": "6500.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.946Z",
+    "updated_at": "2026-05-04T00:54:55.946Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 77,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Poncho Pluie Homme",
+    "slug": "poncho-pluie-homme",
+    "description": "Poncho impermeable ultra-leger, se plie en poche pratique.",
+    "price": "11000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.977Z",
+    "updated_at": "2026-05-04T00:54:55.977Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 78,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Ensemble Bapteme Garcon",
+    "slug": "ensemble-bapteme-garcon",
+    "description": "Ensemble bapteme blanc complet : chemise, pantalon, gilet et cravate.",
+    "price": "18000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:55.989Z",
+    "updated_at": "2026-05-04T00:54:55.989Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 79,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Robe Tutu Anniversaire",
+    "slug": "robe-tutu-anniversaire",
+    "description": "Robe tutu rose fuchsia pour anniversaires et fetes, livree avec bandeau assorti.",
+    "price": "11000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.002Z",
+    "updated_at": "2026-05-04T00:54:56.002Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 80,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Salopette Denim Enfant",
+    "slug": "salopette-denim-enfant",
+    "description": "Salopette en jean pour enfant 2-10 ans, robuste et tendance.",
+    "price": "9500.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.015Z",
+    "updated_at": "2026-05-04T00:54:56.015Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 81,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "T-shirt Super-Heros Garcon",
+    "slug": "t-shirt-super-heros-garcon",
+    "description": "T-shirt imprime super-heros pour garcon, 100% coton.",
+    "price": "5000.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.026Z",
+    "updated_at": "2026-05-04T00:54:56.026Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 82,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Robe Africaine Fille",
+    "slug": "robe-africaine-fille",
+    "description": "Robe en tissu wax pour fillette 3-12 ans, coloree et festive.",
+    "price": "13000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.040Z",
+    "updated_at": "2026-05-04T00:54:56.040Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 84,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Impermeable Enfant Dinosaure",
+    "slug": "impermeable-enfant-dinosaure",
+    "description": "Ciree impermeable motif dinosaure avec capuche integree.",
+    "price": "9000.00",
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1545048702-79362596cdc9?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.062Z",
+    "updated_at": "2026-05-04T00:54:56.062Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 85,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Gilet Tricote Enfant",
+    "slug": "gilet-tricote-enfant",
+    "description": "Gilet en laine douce tricote main, chaleur et charme naturel.",
+    "price": "7500.00",
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.072Z",
+    "updated_at": "2026-05-04T00:54:56.072Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 86,
+  "fields": {
+    "store": 1,
+    "category": 3,
+    "name": "Short Cargo Enfant",
+    "slug": "short-cargo-enfant",
+    "description": "Short cargo avec poches laterales, solide et pratique pour jeux.",
+    "price": "6000.00",
+    "stock": 32,
+    "image_url": "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.084Z",
+    "updated_at": "2026-05-04T00:54:56.084Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 87,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Ballerines Cuir Vernis",
+    "slug": "ballerines-cuir-vernis",
+    "description": "Ballerines en cuir verni, confort et elegance au bureau ou en sortie.",
+    "price": "13500.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.095Z",
+    "updated_at": "2026-05-04T00:54:56.095Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 88,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Boots Combat Unisex",
+    "slug": "boots-combat-unisex",
+    "description": "Boots style militaire, resistant et ultra-tendance unisexe.",
+    "price": "28000.00",
+    "stock": 14,
+    "image_url": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.107Z",
+    "updated_at": "2026-05-04T00:54:56.107Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 89,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Sandales Homme Cuir",
+    "slug": "sandales-homme-cuir",
+    "description": "Sandales en cuir naturel pour homme, confort et style pour ete.",
+    "price": "14000.00",
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.118Z",
+    "updated_at": "2026-05-04T00:54:56.118Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 90,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Chaussures Travail Securite",
+    "slug": "chaussures-travail-securite",
+    "description": "Chaussures de securite embout acier, norme CE, confort professionnel.",
+    "price": "32000.00",
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.129Z",
+    "updated_at": "2026-05-04T00:54:56.129Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 91,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Mules Femme Daim",
+    "slug": "mules-femme-daim",
+    "description": "Mules en daim synthethique, style chic et moderne tres confortables.",
+    "price": "15000.00",
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.139Z",
+    "updated_at": "2026-05-04T00:54:56.139Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 92,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Chaussures Enfant Sport",
+    "slug": "chaussures-enfant-sport",
+    "description": "Chaussures sport enfant avec lacets elastiques, facile a enfiler.",
+    "price": "10000.00",
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.149Z",
+    "updated_at": "2026-05-04T00:54:56.149Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 93,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Derby Cuir Homme Bureau",
+    "slug": "derby-cuir-homme-bureau",
+    "description": "Chaussures derby en cuir lisse, indispensables pour tenue professionnelle.",
+    "price": "26000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.160Z",
+    "updated_at": "2026-05-04T00:54:56.160Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 94,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Pantoufles Coton Maison",
+    "slug": "pantoufles-coton-maison",
+    "description": "Pantoufles douces en coton pour maison, semelle antiderapante.",
+    "price": "4500.00",
+    "stock": 50,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.172Z",
+    "updated_at": "2026-05-04T00:54:56.173Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 95,
+  "fields": {
+    "store": 1,
+    "category": 4,
+    "name": "Talons Aiguilles Femme",
+    "slug": "talons-aiguilles-femme",
+    "description": "Escarpins talon aiguille 10cm, ultra-glamour pour soirees speciales.",
+    "price": "20000.00",
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.186Z",
+    "updated_at": "2026-05-04T00:54:56.186Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 96,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac Cuir Vintage Femme",
+    "slug": "sac-cuir-vintage-femme",
+    "description": "Sac en cuir veritable style vintage, grande capacite avec poches.",
+    "price": "25000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.198Z",
+    "updated_at": "2026-05-04T00:54:56.198Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 97,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sacoche Ordinateur 15p",
+    "slug": "sacoche-ordinateur-15p",
+    "description": "Sacoche laptop 15 pouces en nylon, rembourrrage protection maximale.",
+    "price": "18000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.209Z",
+    "updated_at": "2026-05-04T00:54:56.209Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 98,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac Paille Plage",
+    "slug": "sac-paille-plage",
+    "description": "Sac en paille tresse naturelle, grand format pour plage et vacances.",
+    "price": "8000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.221Z",
+    "updated_at": "2026-05-04T00:54:56.221Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 99,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac Maternite Multi-poches",
+    "slug": "sac-maternite-multi-poches",
+    "description": "Sac maternite pratique avec nombreuses poches et tapis a langer inclus.",
+    "price": "22000.00",
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.233Z",
+    "updated_at": "2026-05-18T10:46:00.104Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 100,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Cartable Ecole Enfant",
+    "slug": "cartable-ecole-enfant",
+    "description": "Cartable solide et ergonomique pour primaire, avec poches organisation.",
+    "price": "12000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.247Z",
+    "updated_at": "2026-05-04T00:54:56.247Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 101,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac Filet Marche",
+    "slug": "sac-filet-marche",
+    "description": "Sac filet extensible en coton, ecologique et reutilisable pour courses.",
+    "price": "3500.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.258Z",
+    "updated_at": "2026-05-04T00:54:56.258Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 102,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Pochette Homme Soiree",
+    "slug": "pochette-homme-soiree",
+    "description": "Pochette clutch pour homme en cuir noir, look elegant et moderne.",
+    "price": "9500.00",
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.270Z",
+    "updated_at": "2026-05-18T10:48:45.410Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 103,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Valise Cabine Rigide",
+    "slug": "valise-cabine-rigide",
+    "description": "Valise cabine 55cm coque rigide 4 roues, numerotee TSA.",
+    "price": "38000.00",
+    "stock": 8,
+    "image_url": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.282Z",
+    "updated_at": "2026-05-18T10:46:43.119Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 104,
+  "fields": {
+    "store": 1,
+    "category": 5,
+    "name": "Sac Waist Pack Sportif",
+    "slug": "sac-waist-pack-sportif",
+    "description": "Sac banane sport resistant eau, parfait pour running et voyages.",
+    "price": "7500.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.294Z",
+    "updated_at": "2026-05-04T00:54:56.294Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 105,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Lampe Solaire Decorative",
+    "slug": "lampe-solaire-decorative",
+    "description": "Lampe solaire 3 niveaux de luminosite, autonome et economique.",
+    "price": "13500.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.305Z",
+    "updated_at": "2026-05-04T00:54:56.305Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 106,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Set Couverts Bambou 6pcs",
+    "slug": "set-couverts-bambou-6pcs",
+    "description": "Service couverts en bambou naturel 6 personnes, eco-responsable.",
+    "price": "8500.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1490735891913-40897cdaafd1?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.316Z",
+    "updated_at": "2026-05-04T00:54:56.316Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 107,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Coussin Sol Africain",
+    "slug": "coussin-sol-africain",
+    "description": "Grand coussin de sol 60cm en tissu wax, assise confortable.",
+    "price": "9000.00",
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.328Z",
+    "updated_at": "2026-05-04T00:54:56.328Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 108,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Boite Rangement Laque",
+    "slug": "boite-rangement-laque",
+    "description": "Boite de rangement en bois laque, dimensions 30x20x15cm, multiusage.",
+    "price": "7000.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.339Z",
+    "updated_at": "2026-05-04T00:54:56.339Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 109,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Plaid Coton Jacquard",
+    "slug": "plaid-coton-jacquard",
+    "description": "Plaid douillet en coton jacquard 130x170cm, motifs geometriques.",
+    "price": "16000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.349Z",
+    "updated_at": "2026-05-04T00:54:56.349Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 111,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Tapis Berbere Laine",
+    "slug": "tapis-berbere-laine",
+    "description": "Tapis en laine naturelle motifs berberes, 150x200cm, artisanat authentique.",
+    "price": "45000.00",
+    "stock": 6,
+    "image_url": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.371Z",
+    "updated_at": "2026-05-04T00:54:56.371Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 112,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Bougies Parfumees Set 3",
+    "slug": "bougies-parfumees-set-3",
+    "description": "Set 3 bougies parfumees aux senteurs jasmin, vanille et coco.",
+    "price": "9500.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.383Z",
+    "updated_at": "2026-05-04T00:54:56.383Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 113,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Cadre Photo Bois Sculpte",
+    "slug": "cadre-photo-bois-sculpte",
+    "description": "Cadre photo 15x20cm en bois sculpte motifs africains artisanaux.",
+    "price": "6500.00",
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1564078516393-cf04bd966897?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.395Z",
+    "updated_at": "2026-05-04T00:54:56.395Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 114,
+  "fields": {
+    "store": 1,
+    "category": 6,
+    "name": "Horloge Murale Moderne",
+    "slug": "horloge-murale-moderne",
+    "description": "Horloge silencieuse design moderne, cadre metal noir 40cm diametre.",
+    "price": "14000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T00:54:56.407Z",
+    "updated_at": "2026-05-04T00:54:56.407Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 115,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Smartphone Android 128Go",
+    "slug": "smartphone-android-128go",
+    "description": "Smartphone Android 6.5 pouces 128Go RAM 6Go, camera 48MP, batterie 5000mAh.",
+    "price": "85000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.004Z",
+    "updated_at": "2026-05-18T10:45:06.228Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 116,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Ecouteurs Bluetooth Sans Fil",
+    "slug": "ecouteurs-bluetooth-sans-fil",
+    "description": "Ecouteurs true wireless autonomie 24h, reduction de bruit active, etanche IPX5.",
+    "price": "18500.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.016Z",
+    "updated_at": "2026-05-04T01:00:25.016Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 117,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Chargeur Solaire Portable",
+    "slug": "chargeur-solaire-portable",
+    "description": "Chargeur solaire 20000mAh 2 ports USB, ideal pour voyages et coupures courant.",
+    "price": "12000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.024Z",
+    "updated_at": "2026-05-04T01:00:25.024Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 118,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Montre Connectee Sport",
+    "slug": "montre-connectee-sport",
+    "description": "Smartwatch suivi sante FC GPS 7 jours autonomie notifications.",
+    "price": "32000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.034Z",
+    "updated_at": "2026-05-04T01:00:25.034Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 119,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Enceinte Bluetooth Portable",
+    "slug": "enceinte-bluetooth-portable",
+    "description": "Enceinte Bluetooth 360 degres 20W impermeable, 12h autonomie.",
+    "price": "22000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.044Z",
+    "updated_at": "2026-05-04T01:00:25.044Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 120,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Tablette 10 Pouces",
+    "slug": "tablette-10-pouces",
+    "description": "Tablette Android 10p 64Go WiFi, ecran HD parfaite pour etudes et divertissement.",
+    "price": "55000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.054Z",
+    "updated_at": "2026-05-18T10:45:33.312Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 122,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Coque Telephone Personnalisee",
+    "slug": "coque-telephone-personnalisee",
+    "description": "Coque protection renforcee anti-choc pour smartphones populaires.",
+    "price": "5500.00",
+    "stock": 50,
+    "image_url": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.074Z",
+    "updated_at": "2026-05-18T10:47:04.971Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 123,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Ventilateur USB Bureau",
+    "slug": "ventilateur-usb-bureau",
+    "description": "Mini ventilateur USB 3 vitesses silencieux, ideal pour bureau et etudes.",
+    "price": "7000.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.084Z",
+    "updated_at": "2026-05-04T01:00:25.084Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 124,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Lampe LED Bureau",
+    "slug": "lampe-led-bureau",
+    "description": "Lampe de bureau LED rechargeable USB, luminosite reglable 3 modes couleur.",
+    "price": "9500.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.095Z",
+    "updated_at": "2026-05-04T01:00:25.095Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 125,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Radio FM Numerique",
+    "slug": "radio-fm-numerique",
+    "description": "Radio FM/AM numerique avec bluetooth et port USB pour ecouter la musique.",
+    "price": "14000.00",
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.104Z",
+    "updated_at": "2026-05-18T10:47:18.514Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 127,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Creme Visage Eclat",
+    "slug": "creme-visage-eclat",
+    "description": "Creme hydratante visage enrichie en vitamine C, eclat naturel pour tous types de peau.",
+    "price": "8500.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.125Z",
+    "updated_at": "2026-05-04T01:00:25.125Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 128,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Huile de Karrite Pur",
+    "slug": "huile-de-karrite-pur",
+    "description": "Beurre de karite 100% naturel non raffine, soin intensif peau et cheveux.",
+    "price": "6000.00",
+    "stock": 50,
+    "image_url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.137Z",
+    "updated_at": "2026-05-04T01:00:25.137Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 129,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Savon Noir Africain",
+    "slug": "savon-noir-africain",
+    "description": "Savon noir authentique au plantain, gommage naturel peau douce et lumineuse.",
+    "price": "3500.00",
+    "stock": 60,
+    "image_url": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.148Z",
+    "updated_at": "2026-05-04T01:00:25.148Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 131,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Huile Cheveux Argan",
+    "slug": "huile-cheveux-argan",
+    "description": "Huile argan pure pour cheveux, nutrition profonde brillance et anti-frisottis.",
+    "price": "9500.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1526045612212-70caf35c14df?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.167Z",
+    "updated_at": "2026-05-04T01:00:25.167Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 132,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Kit Maquillage Complet",
+    "slug": "kit-maquillage-complet",
+    "description": "Palette maquillage 48 teintes fond de teint mascara rouge a levres eyeliner.",
+    "price": "25000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.177Z",
+    "updated_at": "2026-05-04T01:00:25.177Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 133,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Creme Solaire SPF50",
+    "slug": "creme-solaire-spf50",
+    "description": "Protection solaire haute 50+ pour peau noire et metisse, texture legere.",
+    "price": "7500.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.189Z",
+    "updated_at": "2026-05-04T01:00:25.189Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 134,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Gel Aloe Vera Pur",
+    "slug": "gel-aloe-vera-pur",
+    "description": "Gel aloe vera 99% pur, apaisant hydratant pour peau et cheveux.",
+    "price": "5000.00",
+    "stock": 45,
+    "image_url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.201Z",
+    "updated_at": "2026-05-18T10:46:21.711Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 135,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Seche-Cheveux Ionique",
+    "slug": "seche-cheveux-ionique",
+    "description": "Seche-cheveux ionique 2200W 3 temperatures anti-frisottis protection thermique.",
+    "price": "19500.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.213Z",
+    "updated_at": "2026-05-04T01:00:25.213Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 136,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Deodorant Naturel Stick",
+    "slug": "deodorant-naturel-stick",
+    "description": "Deodorant naturel sans aluminium 48h protection, peau sensible.",
+    "price": "4500.00",
+    "stock": 55,
+    "image_url": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.225Z",
+    "updated_at": "2026-05-18T10:42:06.632Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 137,
+  "fields": {
+    "store": 1,
+    "category": 8,
+    "name": "Masque Cheveux Proteines",
+    "slug": "masque-cheveux-proteines",
+    "description": "Masque intensif aux proteines de soie, repare et fortifie cheveux abimes.",
+    "price": "8000.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1526045612212-70caf35c14df?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.238Z",
+    "updated_at": "2026-05-04T01:00:25.238Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 139,
+  "fields": {
+    "store": 1,
+    "category": 9,
+    "name": "Ballon Football Officiel",
+    "slug": "ballon-football-officiel",
+    "description": "Ballon football taille 5 cousu main, certifie FIFA, usage terrain et salle.",
+    "price": "9500.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.259Z",
+    "updated_at": "2026-05-04T01:00:25.259Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 140,
+  "fields": {
+    "store": 1,
+    "category": 9,
+    "name": "Corde a Sauter Pro",
+    "slug": "corde-a-sauter-pro",
+    "description": "Corde a sauter aluminium reglable roulements a billes, compteur integre.",
+    "price": "5500.00",
+    "stock": 45,
+    "image_url": "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.271Z",
+    "updated_at": "2026-05-04T01:00:25.271Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 141,
+  "fields": {
+    "store": 1,
+    "category": 9,
+    "name": "Tapis Yoga Antiderapant",
+    "slug": "tapis-yoga-antiderapant",
+    "description": "Tapis yoga 6mm NBR antiderapant 183x61cm avec sangle de transport.",
+    "price": "12000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.282Z",
+    "updated_at": "2026-05-04T01:00:25.282Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 142,
+  "fields": {
+    "store": 1,
+    "category": 9,
+    "name": "Gants Boxe Cuir",
+    "slug": "gants-boxe-cuir",
+    "description": "Gants de boxe cuir synthetique 12oz rembourrage triple couche.",
+    "price": "18000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.293Z",
+    "updated_at": "2026-05-04T01:00:25.293Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 143,
+  "fields": {
+    "store": 1,
+    "category": 9,
+    "name": "Halteres Reglables 20kg",
+    "slug": "halteres-reglables-20kg",
+    "description": "Paires halteres reglables 2x10kg chrome barre vissable musculation maison.",
+    "price": "35000.00",
+    "stock": 8,
+    "image_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.304Z",
+    "updated_at": "2026-05-04T01:00:25.304Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 144,
+  "fields": {
+    "store": 1,
+    "category": 9,
+    "name": "Maillot Sport Respiraant",
+    "slug": "maillot-sport-respiraant",
+    "description": "Maillot sport DryFit ultra-respirant evacuation humidite manches courtes.",
+    "price": "8500.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.317Z",
+    "updated_at": "2026-05-04T01:00:25.317Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 145,
+  "fields": {
+    "store": 1,
+    "category": 9,
+    "name": "Bouteille Sport Isotherme",
+    "slug": "bouteille-sport-isotherme",
+    "description": "Gourde isotherme inox 750ml maintient 24h froid 12h chaud, sans BPA.",
+    "price": "7000.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.331Z",
+    "updated_at": "2026-05-04T01:00:25.331Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 146,
+  "fields": {
+    "store": 1,
+    "category": 9,
+    "name": "Filet Volleyball Plage",
+    "slug": "filet-volleyball-plage",
+    "description": "Filet volleyball plage professionnel 8x1m avec piquets poche transport.",
+    "price": "15000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.344Z",
+    "updated_at": "2026-05-04T01:00:25.344Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 147,
+  "fields": {
+    "store": 1,
+    "category": 9,
+    "name": "Bande Resistance Elastique",
+    "slug": "bande-resistance-elastique",
+    "description": "Set 5 bandes resistance latex niveaux debutant a avance, exercices complets.",
+    "price": "6500.00",
+    "stock": 50,
+    "image_url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.356Z",
+    "updated_at": "2026-05-04T01:00:25.356Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 148,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Chronometre Sport Digital",
+    "slug": "chronometre-sport-digital",
+    "description": "Chronometre sport numerique memoire 99 tours, minuterie alarme etanche.",
+    "price": "5000.00",
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.367Z",
+    "updated_at": "2026-05-18T10:42:35.251Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 149,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Huile Palme Rouge Pur",
+    "slug": "huile-palme-rouge-pur",
+    "description": "Huile de palme rouge non raffine 1L, riche en vitamine E et beta-carotene.",
+    "price": "4500.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.378Z",
+    "updated_at": "2026-05-04T01:00:25.378Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 151,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Cafe Touba Premium 500g",
+    "slug": "cafe-touba-premium-500g",
+    "description": "Cafe touba authentique epice selim et clou de girofle, prepare traditionnel.",
+    "price": "6500.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.401Z",
+    "updated_at": "2026-05-04T01:00:25.401Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 152,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Farine Manioc Bio 2kg",
+    "slug": "farine-manioc-bio-2kg",
+    "description": "Farine de manioc biologique mouture fine, idéale attiéké et préparations.",
+    "price": "3500.00",
+    "stock": 50,
+    "image_url": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.414Z",
+    "updated_at": "2026-05-04T01:00:25.414Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 153,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "The Vert Gunpowder 250g",
+    "slug": "the-vert-gunpowder-250g",
+    "description": "The vert chinois gunpowder import qualite superieure, rituel menthe.",
+    "price": "5500.00",
+    "stock": 45,
+    "image_url": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.425Z",
+    "updated_at": "2026-05-04T01:00:25.425Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 155,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Pate Arachide Naturelle 350g",
+    "slug": "pate-arachide-naturelle-350g",
+    "description": "Beurre de cacahouete naturel 100% arachides sans sucre ni additifs.",
+    "price": "4000.00",
+    "stock": 55,
+    "image_url": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.445Z",
+    "updated_at": "2026-05-04T01:00:25.445Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 156,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Moringa Poudre Bio 200g",
+    "slug": "moringa-poudre-bio-200g",
+    "description": "Poudre moringa biologique 200g, superfood africain riche mineraux vitamines.",
+    "price": "7500.00",
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.456Z",
+    "updated_at": "2026-05-04T01:00:25.456Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 157,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Epices Yassa Poulet Kit",
+    "slug": "epices-yassa-poulet-kit",
+    "description": "Kit complet epices pour Yassa poulet, melange traditionnel senegalais.",
+    "price": "3500.00",
+    "stock": 60,
+    "image_url": "https://images.unsplash.com/photo-1415369629372-26f2fe60c467?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.466Z",
+    "updated_at": "2026-05-04T01:00:25.466Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 159,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Huile Coco Bio 500ml",
+    "slug": "huile-coco-bio-500ml",
+    "description": "Huile de coco vierge extra pression a froid, cuisine et soins beaute.",
+    "price": "9000.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.487Z",
+    "updated_at": "2026-05-04T01:00:25.487Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 160,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Sucre de Canne Roux 1kg",
+    "slug": "sucre-de-canne-roux-1kg",
+    "description": "Sucre de canne non raffine roux, naturel saveur authentique.",
+    "price": "2500.00",
+    "stock": 68,
+    "image_url": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.498Z",
+    "updated_at": "2026-05-10T14:19:52.855Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 161,
+  "fields": {
+    "store": 1,
+    "category": 11,
+    "name": "Collier Perles Africaines",
+    "slug": "collier-perles-africaines",
+    "description": "Collier en perles de verre africaines faites main, multicolore et original.",
+    "price": "12000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.512Z",
+    "updated_at": "2026-05-18T10:43:36.678Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 163,
+  "fields": {
+    "store": 1,
+    "category": 11,
+    "name": "Montre Femme Dorée",
+    "slug": "montre-femme-doree",
+    "description": "Montre femme bracelet dore cadran nacre, mouvement quartz precis.",
+    "price": "25000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.536Z",
+    "updated_at": "2026-05-04T01:00:25.536Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 164,
+  "fields": {
+    "store": 1,
+    "category": 11,
+    "name": "Boucles Oreilles Coquillages",
+    "slug": "boucles-oreilles-coquillages",
+    "description": "Boucles oreilles en coquillages naturels et perles, style bord de mer.",
+    "price": "5500.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.549Z",
+    "updated_at": "2026-05-04T01:00:25.549Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 165,
+  "fields": {
+    "store": 1,
+    "category": 11,
+    "name": "Cheche Coton Sahel",
+    "slug": "cheche-coton-sahel",
+    "description": "Grand cheche en coton 200x60cm, protection soleil et style sahélien.",
+    "price": "6000.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.560Z",
+    "updated_at": "2026-05-04T01:00:25.560Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 166,
+  "fields": {
+    "store": 1,
+    "category": 11,
+    "name": "Ceinture Cuir Sculpte",
+    "slug": "ceinture-cuir-sculpte",
+    "description": "Ceinture en cuir sculpte motifs africains, boucle doree, plusieurs tailles.",
+    "price": "9000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.574Z",
+    "updated_at": "2026-05-04T01:00:25.574Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 167,
+  "fields": {
+    "store": 1,
+    "category": 11,
+    "name": "Bague Argent Massaï",
+    "slug": "bague-argent-massai",
+    "description": "Bague style massai en argent 925 avec perles rouge et bleues.",
+    "price": "15000.00",
+    "stock": 9,
+    "image_url": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.588Z",
+    "updated_at": "2026-05-12T09:07:00.743Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 168,
+  "fields": {
+    "store": 1,
+    "category": 11,
+    "name": "Chapeau Panama Tresse",
+    "slug": "chapeau-panama-tresse",
+    "description": "Chapeau tresse style panama en fibre naturelle, protection soleil classe.",
+    "price": "10000.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.600Z",
+    "updated_at": "2026-05-04T01:00:25.600Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 170,
+  "fields": {
+    "store": 1,
+    "category": 11,
+    "name": "Foulard Soie Femme",
+    "slug": "foulard-soie-femme",
+    "description": "Foulard en soie imprime 90x90cm, peut se porter autour cou tete ou sac.",
+    "price": "8000.00",
+    "stock": 27,
+    "image_url": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.623Z",
+    "updated_at": "2026-05-12T09:06:22.736Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 171,
+  "fields": {
+    "store": 1,
+    "category": 12,
+    "name": "Souris Sans Fil Ergonomique",
+    "slug": "souris-sans-fil-ergonomique",
+    "description": "Souris optique sans fil ergonomique 1600DPI, autonomie 12 mois.",
+    "price": "12000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.636Z",
+    "updated_at": "2026-05-18T10:43:58.241Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 172,
+  "fields": {
+    "store": 1,
+    "category": 12,
+    "name": "Clavier Bluetooth Multi-device",
+    "slug": "clavier-bluetooth-multi-device",
+    "description": "Clavier compact AZERTY bluetooth connexion 3 appareils, recharge USB-C.",
+    "price": "18500.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.650Z",
+    "updated_at": "2026-05-18T10:44:20.450Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 173,
+  "fields": {
+    "store": 1,
+    "category": 12,
+    "name": "Disque Dur Externe 1To",
+    "slug": "disque-dur-externe-1to",
+    "description": "Disque dur externe portable 1To USB 3.0 vitesse 120Mo/s compatible tout OS.",
+    "price": "28000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.661Z",
+    "updated_at": "2026-05-04T01:00:25.661Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 174,
+  "fields": {
+    "store": 1,
+    "category": 12,
+    "name": "Cle USB 64Go",
+    "slug": "cle-usb-64go",
+    "description": "Cle USB 3.0 64Go lecture 100Mo/s, design compact metal resistant.",
+    "price": "5500.00",
+    "stock": 50,
+    "image_url": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.673Z",
+    "updated_at": "2026-05-04T01:00:25.673Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 175,
+  "fields": {
+    "store": 1,
+    "category": 12,
+    "name": "Webcam HD 1080p",
+    "slug": "webcam-hd-1080p",
+    "description": "Webcam Full HD 1080p micro integre auto-focus pour visioconferences.",
+    "price": "16000.00",
+    "stock": 18,
+    "image_url": "https://images.unsplash.com/photo-1591815302525-756a9bcc3425?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.686Z",
+    "updated_at": "2026-05-04T01:00:25.686Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 177,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Sac Ordinateur 15p Neoprene",
+    "slug": "sac-ordinateur-15p-neoprene",
+    "description": "Housse laptop 15 pouces neoprene protection chocs eau, avec poignee.",
+    "price": "11000.00",
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": true,
+    "discount_price": "9000.00",
+    "created_at": "2026-05-04T01:00:25.709Z",
+    "updated_at": "2026-05-18T10:29:14.853Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 179,
+  "fields": {
+    "store": 1,
+    "category": 12,
+    "name": "Tapis Souris XXL Gaming",
+    "slug": "tapis-souris-xxl-gaming",
+    "description": "Grand tapis de souris 80x30cm surface lisse couture renforcee antiderapant.",
+    "price": "8000.00",
+    "stock": 28,
+    "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.734Z",
+    "updated_at": "2026-05-04T01:00:25.734Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 180,
+  "fields": {
+    "store": 1,
+    "category": 12,
+    "name": "Repose Poignet Ergonomique",
+    "slug": "repose-poignet-ergonomique",
+    "description": "Repose poignet gel memoire de forme clavier et souris, prevention TMS.",
+    "price": "5000.00",
+    "stock": 40,
+    "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:00:25.746Z",
+    "updated_at": "2026-05-04T01:00:25.746Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 182,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Perruque Bouclee Bresilienne",
+    "slug": "perruque-bouclee-bresilienne",
+    "description": "Perruque bresilienne aux boucles bien definies, volume naturel, facile a entretenir.",
+    "price": "38000.00",
+    "stock": 10,
+    "image_url": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.530Z",
+    "updated_at": "2026-05-04T01:35:59.213Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 186,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Robe Fleurie Ete",
+    "slug": "robe-fleurie-ete",
+    "description": "Petite robe legere aux motifs floraux, parfaite pour les journees ensoleillees.",
+    "price": "12000.00",
+    "stock": 25,
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.571Z",
+    "updated_at": "2026-05-04T01:29:15.571Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 187,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Robe Ajustee Elegante",
+    "slug": "robe-ajustee-elegante",
+    "description": "Robe de bureau ajustee mi-longue, alliant professionnalisme et elegance.",
+    "price": "15000.00",
+    "stock": 22,
+    "image_url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.583Z",
+    "updated_at": "2026-05-04T01:29:15.583Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 188,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Jupe Crayon Cuir",
+    "slug": "jupe-crayon-cuir",
+    "description": "Jupe crayon taille haute en simili cuir souple, tres elegante avec un chemisier.",
+    "price": "14000.00",
+    "stock": 15,
+    "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.593Z",
+    "updated_at": "2026-05-04T01:29:15.593Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 190,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Mini Jupe Jean Dechiree",
+    "slug": "mini-jupe-jean-dechiree",
+    "description": "Mini jupe en jean style casual avec details dechires, un classique indetronable.",
+    "price": "8500.00",
+    "stock": 35,
+    "image_url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.618Z",
+    "updated_at": "2026-05-18T10:32:20.791Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 191,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Talons Aiguilles Vernis Rouges",
+    "slug": "talons-aiguilles-vernis-rouges",
+    "description": "Superbes escarpins vernis rouges, talon 10cm, le summum du glamour.",
+    "price": "22000.00",
+    "stock": 12,
+    "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.628Z",
+    "updated_at": "2026-05-18T10:31:33.042Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 193,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Escarpins Noirs Classiques",
+    "slug": "escarpins-noirs-classiques",
+    "description": "Les indispensables escarpins noirs en daim, s accordent avec toutes les tenues.",
+    "price": "19000.00",
+    "stock": 0,
+    "image_url": "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.650Z",
+    "updated_at": "2026-05-12T10:48:01.218Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 194,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Pantalon Palazzo Taille Haute",
+    "slug": "pantalon-palazzo-taille-haute",
+    "description": "Pantalon large palazzo fluide et leger, allonge la silhouette de facon sublime.",
+    "price": "13500.00",
+    "stock": 20,
+    "image_url": "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.660Z",
+    "updated_at": "2026-05-04T01:29:15.660Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 195,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Pantalon Tailleur Slim",
+    "slug": "pantalon-tailleur-slim",
+    "description": "Pantalon de tailleur coupe slim stretch, ideal pour un look working girl.",
+    "price": "15000.00",
+    "stock": 24,
+    "image_url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.670Z",
+    "updated_at": "2026-05-04T01:29:15.670Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 196,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Jean Mom Fit Vintage",
+    "slug": "jean-mom-fit-vintage",
+    "description": "Jean coupe mom fit taille haute, tres confortable et a la pointe de la mode.",
+    "price": "12500.00",
+    "stock": 30,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.681Z",
+    "updated_at": "2026-05-04T01:29:15.681Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 197,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Blouse Dentelle Raffinee",
+    "slug": "blouse-dentelle-raffinee",
+    "description": "Blouse delicate avec details en dentelle sur les manches et le col.",
+    "price": "9500.00",
+    "stock": 26,
+    "image_url": "https://images.unsplash.com/photo-1600857062241-98e5dba7f214?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.695Z",
+    "updated_at": "2026-05-21T20:44:32.325Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 199,
+  "fields": {
+    "store": 1,
+    "category": 1,
+    "name": "Body Noir Decollete",
+    "slug": "body-noir-decollete",
+    "description": "Body noir pres du corps avec un beau decollete en V profond.",
+    "price": "7500.00",
+    "stock": 24,
+    "image_url": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=400",
+    "image": "",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-04T01:29:15.715Z",
+    "updated_at": "2026-05-17T10:56:45.761Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 200,
+  "fields": {
+    "store": 1,
+    "category": 2,
+    "name": "Claquette",
+    "slug": "claquette-af3c92",
+    "description": "",
+    "price": "4000.00",
+    "stock": 94,
+    "image_url": "",
+    "image": "products/c3.jpeg",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-12T08:50:00.935Z",
+    "updated_at": "2026-05-13T18:37:55.726Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 201,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "Iphone 16",
+    "slug": "iphone-16-e02462",
+    "description": "",
+    "price": "650000.00",
+    "stock": 10,
+    "image_url": "",
+    "image": "products/e2.jpeg",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-12T08:50:44.268Z",
+    "updated_at": "2026-05-18T10:29:40.020Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 202,
+  "fields": {
+    "store": 1,
+    "category": 10,
+    "name": "T-Shirt",
+    "slug": "t-shirt-db16cd",
+    "description": "",
+    "price": "5000.00",
+    "stock": 20,
+    "image_url": "",
+    "image": "products/h6.jpeg",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-12T08:51:36.181Z",
+    "updated_at": "2026-05-18T10:30:18.164Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 203,
+  "fields": {
+    "store": 1,
+    "category": 7,
+    "name": "Galaxy S26 Ultra",
+    "slug": "galaxy-s26-ultra-0f7adc",
+    "description": "",
+    "price": "1100000.00",
+    "stock": 10,
+    "image_url": "",
+    "image": "products/WhatsApp_Image_2026-05-06_at_14.08.18_2.jpeg",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-12T08:53:10.044Z",
+    "updated_at": "2026-05-18T10:51:56.287Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 204,
+  "fields": {
+    "store": 3,
+    "category": 4,
+    "name": "Claquette",
+    "slug": "claquette-635106",
+    "description": "",
+    "price": "4000.00",
+    "stock": 79,
+    "image_url": "",
+    "image": "products/c3_B8LlBwH.jpeg",
+    "is_active": true,
+    "is_new": true,
+    "is_promo": true,
+    "discount_price": "3000.00",
+    "created_at": "2026-05-17T11:07:43.663Z",
+    "updated_at": "2026-05-19T09:35:20.540Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 205,
+  "fields": {
+    "store": 3,
+    "category": 2,
+    "name": "Pantalon cargo",
+    "slug": "pantalon-cargo-218e91",
+    "description": "",
+    "price": "8000.00",
+    "stock": 30,
+    "image_url": "",
+    "image": "products/h1.jpeg",
+    "is_active": true,
+    "is_new": true,
+    "is_promo": true,
+    "discount_price": "7000.00",
+    "created_at": "2026-05-18T10:25:38.808Z",
+    "updated_at": "2026-05-18T10:25:38.808Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 206,
+  "fields": {
+    "store": 3,
+    "category": 8,
+    "name": "Parfum",
+    "slug": "parfum-31d9df",
+    "description": "",
+    "price": "7000.00",
+    "stock": 8,
+    "image_url": "",
+    "image": "products/WhatsApp_Image_2026-05-06_at_14.08.14_1.jpeg",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": true,
+    "discount_price": "5000.00",
+    "created_at": "2026-05-18T10:27:16.808Z",
+    "updated_at": "2026-05-20T21:23:13.461Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 207,
+  "fields": {
+    "store": 3,
+    "category": 8,
+    "name": "parfum",
+    "slug": "parfum-8a4ba2",
+    "description": "",
+    "price": "6000.00",
+    "stock": 8,
+    "image_url": "",
+    "image": "products/WhatsApp_Image_2026-05-06_at_14.08.13_2.jpeg",
+    "is_active": true,
+    "is_new": true,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-18T10:28:02.907Z",
+    "updated_at": "2026-05-19T09:33:59.026Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 209,
+  "fields": {
+    "store": 3,
+    "category": 2,
+    "name": "Complet",
+    "slug": "complet-998c84",
+    "description": "",
+    "price": "7000.00",
+    "stock": 10,
+    "image_url": "",
+    "image": "products/h19.jpeg",
+    "is_active": true,
+    "is_new": false,
+    "is_promo": false,
+    "discount_price": null,
+    "created_at": "2026-05-20T21:58:33.141Z",
+    "updated_at": "2026-05-20T21:58:33.141Z"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 1,
+  "fields": {
+    "product": 203,
+    "name": "Iphone 16",
+    "color": "bleu blanc gris",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 3,
+  "fields": {
+    "product": 204,
+    "name": "Bleu - 40",
+    "color": "Bleu",
+    "size": "40",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 4,
+  "fields": {
+    "product": 204,
+    "name": "Bleu - 41",
+    "color": "Bleu",
+    "size": "41",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 5,
+  "fields": {
+    "product": 204,
+    "name": "Bleu - 42",
+    "color": "Bleu",
+    "size": "42",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 6,
+  "fields": {
+    "product": 204,
+    "name": "Bleu - 43",
+    "color": "Bleu",
+    "size": "43",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 7,
+  "fields": {
+    "product": 204,
+    "name": "Bleu - 44",
+    "color": "Bleu",
+    "size": "44",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 8,
+  "fields": {
+    "product": 204,
+    "name": "Noir - 40",
+    "color": "Noir",
+    "size": "40",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 9,
+  "fields": {
+    "product": 204,
+    "name": "Noir - 41",
+    "color": "Noir",
+    "size": "41",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 10,
+  "fields": {
+    "product": 204,
+    "name": "Noir - 42",
+    "color": "Noir",
+    "size": "42",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 93,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 11,
+  "fields": {
+    "product": 204,
+    "name": "Noir - 43",
+    "color": "Noir",
+    "size": "43",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 12,
+  "fields": {
+    "product": 204,
+    "name": "Noir - 44",
+    "color": "Noir",
+    "size": "44",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 13,
+  "fields": {
+    "product": 204,
+    "name": "Rouge - 40",
+    "color": "Rouge",
+    "size": "40",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 14,
+  "fields": {
+    "product": 204,
+    "name": "Rouge - 41",
+    "color": "Rouge",
+    "size": "41",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 15,
+  "fields": {
+    "product": 204,
+    "name": "Rouge - 42",
+    "color": "Rouge",
+    "size": "42",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 16,
+  "fields": {
+    "product": 204,
+    "name": "Rouge - 43",
+    "color": "Rouge",
+    "size": "43",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 17,
+  "fields": {
+    "product": 204,
+    "name": "Rouge - 44",
+    "color": "Rouge",
+    "size": "44",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 18,
+  "fields": {
+    "product": 204,
+    "name": "Blanc - 40",
+    "color": "Blanc",
+    "size": "40",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 19,
+  "fields": {
+    "product": 204,
+    "name": "Blanc - 41",
+    "color": "Blanc",
+    "size": "41",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 20,
+  "fields": {
+    "product": 204,
+    "name": "Blanc - 42",
+    "color": "Blanc",
+    "size": "42",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 21,
+  "fields": {
+    "product": 204,
+    "name": "Blanc - 43",
+    "color": "Blanc",
+    "size": "43",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 22,
+  "fields": {
+    "product": 204,
+    "name": "Blanc - 44",
+    "color": "Blanc",
+    "size": "44",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 23,
+  "fields": {
+    "product": 204,
+    "name": "Vert - 40",
+    "color": "Vert",
+    "size": "40",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 24,
+  "fields": {
+    "product": 204,
+    "name": "Vert - 41",
+    "color": "Vert",
+    "size": "41",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 25,
+  "fields": {
+    "product": 204,
+    "name": "Vert - 42",
+    "color": "Vert",
+    "size": "42",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 26,
+  "fields": {
+    "product": 204,
+    "name": "Vert - 43",
+    "color": "Vert",
+    "size": "43",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 27,
+  "fields": {
+    "product": 204,
+    "name": "Vert - 44",
+    "color": "Vert",
+    "size": "44",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 99,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 28,
+  "fields": {
+    "product": 205,
+    "name": "Bleu - XL",
+    "color": "Bleu",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 30,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 29,
+  "fields": {
+    "product": 205,
+    "name": "Bleu - XXL",
+    "color": "Bleu",
+    "size": "XXL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 30,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 30,
+  "fields": {
+    "product": 205,
+    "name": "Bleu - L",
+    "color": "Bleu",
+    "size": "L",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 30,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 31,
+  "fields": {
+    "product": 205,
+    "name": "Noir - XL",
+    "color": "Noir",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 30,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 32,
+  "fields": {
+    "product": 205,
+    "name": "Noir - XXL",
+    "color": "Noir",
+    "size": "XXL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 30,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 33,
+  "fields": {
+    "product": 205,
+    "name": "Noir - L",
+    "color": "Noir",
+    "size": "L",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 30,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 34,
+  "fields": {
+    "product": 205,
+    "name": "Vert - XL",
+    "color": "Vert",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 30,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 35,
+  "fields": {
+    "product": 205,
+    "name": "Vert - XXL",
+    "color": "Vert",
+    "size": "XXL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 30,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 36,
+  "fields": {
+    "product": 205,
+    "name": "Vert - L",
+    "color": "Vert",
+    "size": "L",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 30,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 37,
+  "fields": {
+    "product": 177,
+    "name": "Bleu",
+    "color": "Bleu",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 38,
+  "fields": {
+    "product": 177,
+    "name": "Noir",
+    "color": "Noir",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 39,
+  "fields": {
+    "product": 177,
+    "name": "Blanc",
+    "color": "Blanc",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 40,
+  "fields": {
+    "product": 177,
+    "name": "Rouge",
+    "color": "Rouge",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 41,
+  "fields": {
+    "product": 177,
+    "name": "Rose",
+    "color": "Rose",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 42,
+  "fields": {
+    "product": 201,
+    "name": "Rose",
+    "color": "Rose",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 43,
+  "fields": {
+    "product": 201,
+    "name": "Blanc",
+    "color": "Blanc",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 44,
+  "fields": {
+    "product": 202,
+    "name": "Bleu",
+    "color": "Bleu",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 45,
+  "fields": {
+    "product": 202,
+    "name": "Noir",
+    "color": "Noir",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 46,
+  "fields": {
+    "product": 202,
+    "name": "Rouge",
+    "color": "Rouge",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 47,
+  "fields": {
+    "product": 202,
+    "name": "Blanc",
+    "color": "Blanc",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 48,
+  "fields": {
+    "product": 202,
+    "name": "Vert",
+    "color": "Vert",
+    "size": "",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 49,
+  "fields": {
+    "product": 191,
+    "name": "Bleu - 35",
+    "color": "Bleu",
+    "size": "35",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 50,
+  "fields": {
+    "product": 191,
+    "name": "Bleu - 36",
+    "color": "Bleu",
+    "size": "36",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 51,
+  "fields": {
+    "product": 191,
+    "name": "Bleu - 37",
+    "color": "Bleu",
+    "size": "37",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 52,
+  "fields": {
+    "product": 191,
+    "name": "Bleu - 38",
+    "color": "Bleu",
+    "size": "38",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 53,
+  "fields": {
+    "product": 191,
+    "name": "Noir - 35",
+    "color": "Noir",
+    "size": "35",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 54,
+  "fields": {
+    "product": 191,
+    "name": "Noir - 36",
+    "color": "Noir",
+    "size": "36",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 55,
+  "fields": {
+    "product": 191,
+    "name": "Noir - 37",
+    "color": "Noir",
+    "size": "37",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 56,
+  "fields": {
+    "product": 191,
+    "name": "Noir - 38",
+    "color": "Noir",
+    "size": "38",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 57,
+  "fields": {
+    "product": 191,
+    "name": "Rouge - 35",
+    "color": "Rouge",
+    "size": "35",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 58,
+  "fields": {
+    "product": 191,
+    "name": "Rouge - 36",
+    "color": "Rouge",
+    "size": "36",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 59,
+  "fields": {
+    "product": 191,
+    "name": "Rouge - 37",
+    "color": "Rouge",
+    "size": "37",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 60,
+  "fields": {
+    "product": 191,
+    "name": "Rouge - 38",
+    "color": "Rouge",
+    "size": "38",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 61,
+  "fields": {
+    "product": 191,
+    "name": "Blanc - 35",
+    "color": "Blanc",
+    "size": "35",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 62,
+  "fields": {
+    "product": 191,
+    "name": "Blanc - 36",
+    "color": "Blanc",
+    "size": "36",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 63,
+  "fields": {
+    "product": 191,
+    "name": "Blanc - 37",
+    "color": "Blanc",
+    "size": "37",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 64,
+  "fields": {
+    "product": 191,
+    "name": "Blanc - 38",
+    "color": "Blanc",
+    "size": "38",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 65,
+  "fields": {
+    "product": 190,
+    "name": "Noir - M",
+    "color": "Noir",
+    "size": "M",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 66,
+  "fields": {
+    "product": 190,
+    "name": "Noir - L",
+    "color": "Noir",
+    "size": "L",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 67,
+  "fields": {
+    "product": 190,
+    "name": "Noir - XL",
+    "color": "Noir",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 68,
+  "fields": {
+    "product": 190,
+    "name": "Bleu - M",
+    "color": "Bleu",
+    "size": "M",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 69,
+  "fields": {
+    "product": 190,
+    "name": "Bleu - L",
+    "color": "Bleu",
+    "size": "L",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 70,
+  "fields": {
+    "product": 190,
+    "name": "Bleu - XL",
+    "color": "Bleu",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 71,
+  "fields": {
+    "product": 190,
+    "name": "Rouge - M",
+    "color": "Rouge",
+    "size": "M",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 72,
+  "fields": {
+    "product": 190,
+    "name": "Rouge - L",
+    "color": "Rouge",
+    "size": "L",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 73,
+  "fields": {
+    "product": 190,
+    "name": "Rouge - XL",
+    "color": "Rouge",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 74,
+  "fields": {
+    "product": 190,
+    "name": "Vert - M",
+    "color": "Vert",
+    "size": "M",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 75,
+  "fields": {
+    "product": 190,
+    "name": "Vert - L",
+    "color": "Vert",
+    "size": "L",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 76,
+  "fields": {
+    "product": 190,
+    "name": "Vert - XL",
+    "color": "Vert",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 77,
+  "fields": {
+    "product": 190,
+    "name": "Blanc - M",
+    "color": "Blanc",
+    "size": "M",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 78,
+  "fields": {
+    "product": 190,
+    "name": "Blanc - L",
+    "color": "Blanc",
+    "size": "L",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 79,
+  "fields": {
+    "product": 190,
+    "name": "Blanc - XL",
+    "color": "Blanc",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 80,
+  "fields": {
+    "product": 209,
+    "name": "Bleu - XL",
+    "color": "Bleu",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 81,
+  "fields": {
+    "product": 209,
+    "name": "Bleu - XXL",
+    "color": "Bleu",
+    "size": "XXL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 82,
+  "fields": {
+    "product": 209,
+    "name": "Noir - XL",
+    "color": "Noir",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 83,
+  "fields": {
+    "product": 209,
+    "name": "Noir - XXL",
+    "color": "Noir",
+    "size": "XXL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 84,
+  "fields": {
+    "product": 209,
+    "name": "Rouge - XL",
+    "color": "Rouge",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 85,
+  "fields": {
+    "product": 209,
+    "name": "Rouge - XXL",
+    "color": "Rouge",
+    "size": "XXL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 86,
+  "fields": {
+    "product": 209,
+    "name": "Rose - XL",
+    "color": "Rose",
+    "size": "XL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 87,
+  "fields": {
+    "product": 209,
+    "name": "Rose - XXL",
+    "color": "Rose",
+    "size": "XXL",
+    "sku": "",
+    "price_extra": "0.00",
+    "stock": 10,
+    "is_active": true
+  }
+}
+]

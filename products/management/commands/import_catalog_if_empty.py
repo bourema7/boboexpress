@@ -8,11 +8,15 @@ from products.models import Product
 
 
 class Command(BaseCommand):
-    help = 'Import the bundled Render catalog only when no products exist.'
+    help = 'Import the bundled Render catalog when Render has an incomplete catalog.'
 
     def handle(self, *args, **options):
-        if Product.objects.exists():
-            self.stdout.write('Products already exist; skipping catalog import.')
+        expected_products = 184
+        current_products = Product.objects.count()
+        if current_products >= expected_products:
+            self.stdout.write(
+                f'Catalog already has {current_products} products; skipping import.'
+            )
             return
 
         fixture_path = Path(settings.BASE_DIR) / 'deploy' / 'render_seed_184_products.json'
@@ -22,7 +26,10 @@ class Command(BaseCommand):
             self.stdout.write(self.style.WARNING(f'Catalog fixture missing: {fixture_path}'))
             return
 
-        self.stdout.write(f'Importing catalog fixture: {fixture_path}')
+        self.stdout.write(
+            f'Catalog has only {current_products}/{expected_products} products. '
+            f'Importing fixture: {fixture_path}'
+        )
         call_command('loaddata', str(fixture_path))
 
         if media_zip_path.exists():

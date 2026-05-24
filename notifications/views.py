@@ -81,7 +81,7 @@ class NotificationViewSet(viewsets.ReadOnlyModelViewSet):
                 user=p.user,
                 title=title,
                 message=message,
-                notification_type='admin_broadcast',
+                notification_type='info',
                 channel='inapp'
             ))
             

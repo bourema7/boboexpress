@@ -9,6 +9,8 @@ from .views import (
     UserAdminViewSet,
     ChangePasswordView,
     AvailableDriversView,
+    PasswordResetConfirmView,
+    PasswordResetRequestView,
 )
 
 router = DefaultRouter()
@@ -21,4 +23,6 @@ urlpatterns = [
     path('available-drivers/', AvailableDriversView.as_view(), name='available-drivers'),
     path('driver/location/', DriverLocationUpdateView.as_view(), name='driver-location'),
     path('change-password/', ChangePasswordView.as_view(), name='change-password'),
+    path('password-reset/request/', PasswordResetRequestView.as_view(), name='password-reset-request'),
+    path('password-reset/confirm/', PasswordResetConfirmView.as_view(), name='password-reset-confirm'),
 ]

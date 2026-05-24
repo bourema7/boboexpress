@@ -15,6 +15,7 @@ import 'screens/onboarding_screen.dart';
 import 'screens/notifications_screen.dart';
 import 'screens/order_tracking_screen.dart';
 import 'screens/favorites_screen.dart';
+import 'screens/forgot_password_screen.dart';
 import 'screens/product_details_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/register_screen.dart';
@@ -56,6 +57,7 @@ class BoboExpressApp extends StatelessWidget {
           '/main': (_) => const MainScreen(),
           '/splash': (_) => const OnboardingScreen(),
           '/login': (_) => const LoginScreen(),
+          '/forgot-password': (_) => const ForgotPasswordScreen(),
           '/register': (_) => const RegisterScreen(),
           '/home': (_) => const HomeScreen(),
           '/search': (_) => const SearchScreen(),

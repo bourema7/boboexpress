@@ -126,6 +126,17 @@ class _LoginScreenState extends State<LoginScreen> {
                           togglePassword: () => setState(
                               () => _obscurePassword = !_obscurePassword),
                         ),
+                        Align(
+                          alignment: Alignment.centerRight,
+                          child: TextButton(
+                            onPressed: () =>
+                                Navigator.pushNamed(context, '/forgot-password'),
+                            child: const Text(
+                              'Mot de passe oublie ?',
+                              style: TextStyle(color: Colors.white70),
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 32),
                         SizedBox(
                           width: double.infinity,

@@ -1,12 +1,18 @@
 from django.contrib.auth.models import User
+from django.contrib.auth.password_validation import validate_password
+from django.core.mail import send_mail
+from django.conf import settings
+from django.utils import timezone
 from rest_framework import generics, permissions, status, viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework_simplejwt.views import TokenObtainPairView
+import random
+import datetime
 
 
 
-from .models import Address, UserProfile
+from .models import Address, OTPCode, UserProfile
 from .serializers import (
     AddressSerializer,
     RegisterSerializer,
@@ -38,6 +44,101 @@ class RegisterView(generics.CreateAPIView):
 
 class EmailOrUsernameTokenObtainPairView(TokenObtainPairView):
     serializer_class = EmailOrUsernameTokenObtainPairSerializer
+
+
+class PasswordResetRequestView(generics.GenericAPIView):
+    """POST /api/users/password-reset/request/ — Envoyer un code OTP."""
+    permission_classes = [permissions.AllowAny]
+
+    def post(self, request, *args, **kwargs):
+        identifier = (request.data.get('identifier') or '').strip()
+        if not identifier:
+            return Response({'detail': 'Email ou nom utilisateur requis.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        user = User.objects.filter(email__iexact=identifier).first()
+        if user is None:
+            user = User.objects.filter(username__iexact=identifier).first()
+
+        generic_message = 'Si ce compte existe, un code de reinitialisation a ete envoye.'
+        if user is None or not user.email:
+            return Response({'detail': generic_message})
+
+        OTPCode.objects.filter(user=user, is_used=False).update(is_used=True)
+        code = f'{random.randint(0, 999999):06d}'
+        OTPCode.objects.create(
+            user=user,
+            code=code,
+            expires_at=timezone.now() + datetime.timedelta(minutes=15),
+        )
+
+        try:
+            send_mail(
+                'Code de reinitialisation BoboExpress',
+                (
+                    f'Bonjour {user.username},\n\n'
+                    f'Votre code de reinitialisation est : {code}\n'
+                    'Ce code expire dans 15 minutes.\n\n'
+                    'Si vous n avez pas demande ce code, ignorez ce message.'
+                ),
+                settings.DEFAULT_FROM_EMAIL,
+                [user.email],
+                fail_silently=False,
+            )
+        except Exception:
+            if not settings.DEBUG:
+                return Response(
+                    {'detail': 'Impossible d envoyer le code pour le moment.'},
+                    status=status.HTTP_503_SERVICE_UNAVAILABLE,
+                )
+
+        data = {'detail': generic_message}
+        if settings.DEBUG:
+            data['debug_code'] = code
+        return Response(data)
+
+
+class PasswordResetConfirmView(generics.GenericAPIView):
+    """POST /api/users/password-reset/confirm/ — Valider OTP et changer le mot de passe."""
+    permission_classes = [permissions.AllowAny]
+
+    def post(self, request, *args, **kwargs):
+        identifier = (request.data.get('identifier') or '').strip()
+        code = (request.data.get('code') or '').strip()
+        new_password = request.data.get('new_password') or ''
+
+        if not identifier or not code or not new_password:
+            return Response(
+                {'detail': 'Identifiant, code et nouveau mot de passe requis.'},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        user = User.objects.filter(email__iexact=identifier).first()
+        if user is None:
+            user = User.objects.filter(username__iexact=identifier).first()
+        if user is None:
+            return Response({'detail': 'Code invalide ou expire.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        otp = OTPCode.objects.filter(
+            user=user,
+            code=code,
+            is_used=False,
+            expires_at__gte=timezone.now(),
+        ).order_by('-expires_at').first()
+        if otp is None:
+            return Response({'detail': 'Code invalide ou expire.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        try:
+            validate_password(new_password, user)
+        except Exception as exc:
+            return Response({'detail': ' '.join(exc.messages) if hasattr(exc, 'messages') else str(exc)}, status=status.HTTP_400_BAD_REQUEST)
+
+        user.set_password(new_password)
+        user.save(update_fields=['password'])
+        otp.is_used = True
+        otp.save(update_fields=['is_used'])
+        OTPCode.objects.filter(user=user, is_used=False).update(is_used=True)
+
+        return Response({'detail': 'Mot de passe reinitialise avec succes.'})
 
 
 class MyProfileView(generics.RetrieveUpdateAPIView):
@@ -186,10 +287,19 @@ class AvailableDriversView(generics.ListAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
-        # On affiche tous les livreurs non bloqués pour le moment pour faciliter les tests
         return UserProfile.objects.filter(
-            role='delivery', 
-            is_blocked=False
+            role='delivery',
+            is_available=True,
+            is_blocked=False,
+            user__is_active=True,
+        ).exclude(
+            missions__status__in=[
+                'assigned',
+                'accepted',
+                'picking_up',
+                'picked_up',
+                'on_route',
+            ]
         ).order_by('-created_at')
 
 

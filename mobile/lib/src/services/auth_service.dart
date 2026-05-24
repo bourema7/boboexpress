@@ -217,6 +217,50 @@ class AuthService extends ChangeNotifier {
     }
   }
 
+  Future<Map<String, dynamic>> requestPasswordReset(String identifier) async {
+    try {
+      final response = await http
+          .post(
+            Uri.parse('$baseUrl/users/password-reset/request/'),
+            headers: {'Content-Type': 'application/json'},
+            body: jsonEncode({'identifier': identifier.trim()}),
+          )
+          .timeout(const Duration(seconds: 15));
+      final data = jsonDecode(utf8.decode(response.bodyBytes));
+      return {
+        'success': response.statusCode == 200,
+        'message': data['detail'] ?? 'Demande envoyee',
+        if (data['debug_code'] != null) 'debug_code': data['debug_code'],
+      };
+    } catch (e) {
+      return {'success': false, 'message': 'Erreur de connexion: $e'};
+    }
+  }
+
+  Future<Map<String, dynamic>> confirmPasswordReset(
+      String identifier, String code, String newPassword) async {
+    try {
+      final response = await http
+          .post(
+            Uri.parse('$baseUrl/users/password-reset/confirm/'),
+            headers: {'Content-Type': 'application/json'},
+            body: jsonEncode({
+              'identifier': identifier.trim(),
+              'code': code.trim(),
+              'new_password': newPassword,
+            }),
+          )
+          .timeout(const Duration(seconds: 15));
+      final data = jsonDecode(utf8.decode(response.bodyBytes));
+      return {
+        'success': response.statusCode == 200,
+        'message': data['detail'] ?? 'Mot de passe mis a jour',
+      };
+    } catch (e) {
+      return {'success': false, 'message': 'Erreur de connexion: $e'};
+    }
+  }
+
   Future<Map<String, dynamic>> updateProfile(
       {String? email, String? firstName, String? lastName}) async {
     if (_token == null) return {'success': false, 'message': 'Non authentifié'};

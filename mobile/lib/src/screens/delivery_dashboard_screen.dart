@@ -13,6 +13,8 @@ class DeliveryDashboardScreen extends StatefulWidget {
 
 class _DeliveryDashboardScreenState extends State<DeliveryDashboardScreen> {
   List<dynamic> _orders = [];
+  int _completedDeliveries = 0;
+  double _totalEarnings = 0;
   bool _isLoading = false;
   final ApiService _apiService = ApiService();
 
@@ -26,10 +28,20 @@ class _DeliveryDashboardScreenState extends State<DeliveryDashboardScreen> {
     setState(() => _isLoading = true);
     try {
       final orders = await _apiService.getOrders();
+      final history = await _apiService.getDeliveryMissions(filter: 'history');
+      final deliveredMissions =
+          history.where((m) => m['status'] == 'delivered').toList();
+      final totalEarnings = deliveredMissions.fold<double>(
+        0,
+        (sum, mission) =>
+            sum + (double.tryParse('${mission['driver_earning']}') ?? 0),
+      );
       setState(() {
         _orders = orders
             .where((o) => ['ready', 'shipping'].contains(o['status']))
             .toList();
+        _completedDeliveries = deliveredMissions.length;
+        _totalEarnings = totalEarnings;
         _isLoading = false;
       });
     } catch (e) {
@@ -43,6 +55,7 @@ class _DeliveryDashboardScreenState extends State<DeliveryDashboardScreen> {
       final response =
           await _apiService.post('/orders/orders/$orderId/$action/', {});
       if (response.statusCode == 200) {
+        await Provider.of<AuthService>(context, listen: false).fetchProfile();
         await _loadOrders();
       } else {
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
@@ -122,6 +135,7 @@ class _DeliveryDashboardScreenState extends State<DeliveryDashboardScreen> {
             '/orders/orders/$orderId/verify_otp/', {'otp': otpController.text});
         if (response.statusCode == 200) {
           Navigator.pop(context);
+          await Provider.of<AuthService>(context, listen: false).fetchProfile();
           _showCelebrationDialog();
           _loadOrders();
         } else {
@@ -266,12 +280,22 @@ class _DeliveryDashboardScreenState extends State<DeliveryDashboardScreen> {
   }
 
   Widget _buildStatsRow(Map<String, dynamic>? profile) {
+    final profileDeliveries =
+        int.tryParse('${profile?['total_deliveries'] ?? 0}') ?? 0;
+    final profileEarnings =
+        double.tryParse('${profile?['wallet_balance'] ?? 0}') ?? 0;
+    final deliveries = _completedDeliveries > profileDeliveries
+        ? _completedDeliveries
+        : profileDeliveries;
+    final earnings =
+        _totalEarnings > profileEarnings ? _totalEarnings : profileEarnings;
+
     return Row(
       children: [
-        _buildStatCard('Gains', '${profile?['wallet_balance'] ?? 0} F',
+        _buildStatCard('Gains', '${earnings.toStringAsFixed(0)} F',
             Icons.account_balance_wallet, Colors.orange),
         const SizedBox(width: 12),
-        _buildStatCard('Livraisons', '${profile?['total_deliveries'] ?? 0}',
+        _buildStatCard('Livraisons', '$deliveries',
             Icons.local_shipping, Colors.blue),
         const SizedBox(width: 12),
         _buildStatCard(

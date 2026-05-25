@@ -1,3 +1,5 @@
+from django.db import transaction
+from django.utils import timezone
 from rest_framework import permissions, status, viewsets
 from rest_framework.decorators import action
 from rest_framework.exceptions import PermissionDenied
@@ -115,7 +117,7 @@ class OrderViewSet(viewsets.ModelViewSet):
         if not (is_owner or is_admin):
             raise PermissionDenied('Permissions insuffisantes pour accepter cette commande.')
         order.status = 'confirmed'
-        order.save()
+        order.save(update_fields=['deliverer', 'status', 'updated_at'])
         self._add_status_history(order, 'confirmed', request.user)
         self._notify(order.buyer, '✅ Commande confirmée',
                      f'Votre commande {order.tracking_code} a été acceptée par {order.store.name}.',
@@ -241,11 +243,22 @@ class OrderViewSet(viewsets.ModelViewSet):
             return Response({'detail': 'driver_id requis.'}, status=status.HTTP_400_BAD_REQUEST)
         
         try:
-            # Note: driver_id refers to UserProfile.id
-            driver_profile = UserProfile.objects.get(id=driver_id, role='delivery')
+            driver_profile = (
+                UserProfile.objects.select_related('user')
+                .filter(id=driver_id, role='delivery')
+                .first()
+            )
+            if driver_profile is None:
+                driver_profile = UserProfile.objects.select_related('user').get(
+                    user_id=driver_id,
+                    role='delivery',
+                )
             driver = driver_profile.user
         except UserProfile.DoesNotExist:
             return Response({'detail': 'Livreur introuvable.'}, status=status.HTTP_404_NOT_FOUND)
+
+        if driver_profile.is_blocked or not driver.is_active:
+            return Response({'detail': 'Ce livreur est bloque ou inactif.'}, status=status.HTTP_400_BAD_REQUEST)
         
         # Assigner le livreur à la commande
         order.deliverer = driver
@@ -426,6 +439,18 @@ class OrderViewSet(viewsets.ModelViewSet):
         
         order.status = 'delivered'
         order.save()
+        mission = getattr(order, 'delivery_mission', None)
+        if mission and mission.status != 'delivered':
+            mission.status = 'delivered'
+            mission.delivered_at = timezone.now()
+            if not mission.driver_earning:
+                mission.driver_earning = mission.calculate_earning()
+            mission.save(update_fields=['status', 'delivered_at', 'driver_earning'])
+
+            driver_profile = mission.driver
+            driver_profile.wallet_balance += mission.driver_earning
+            driver_profile.total_deliveries += 1
+            driver_profile.save(update_fields=['wallet_balance', 'total_deliveries'])
         self._add_status_history(order, 'delivered', request.user, note='Livraison confirmée par OTP')
         
         # Notifier le client
@@ -434,4 +459,3 @@ class OrderViewSet(viewsets.ModelViewSet):
                      notif_type='delivered', order=order)
         
         return Response({'status': 'Livraison confirmée', 'order_status': 'delivered'})
-

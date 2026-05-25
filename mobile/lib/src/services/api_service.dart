@@ -417,11 +417,41 @@ class ApiService {
     return null;
   }
 
+  Future<List<dynamic>> getDeliveryMissions({String? filter}) async {
+    final suffix = filter == null ? '' : '$filter/';
+    final response = await get('/delivery/missions/$suffix');
+    if (response.statusCode == 200) {
+      return jsonDecode(utf8.decode(response.bodyBytes));
+    }
+    return [];
+  }
+
   Future<bool> assignDriver(int orderId, int driverId) async {
+    final result = await assignDriverWithResult(orderId, driverId);
+    return result['success'] == true;
+  }
+
+  Future<Map<String, dynamic>> assignDriverWithResult(
+      int orderId, int driverId) async {
     final response = await post('/orders/orders/$orderId/assign_driver/', {
       'driver_id': driverId,
     });
-    return response.statusCode == 200;
+    if (response.statusCode == 200) {
+      return {'success': true};
+    }
+
+    String message = 'Erreur lors de l\'assignation du livreur.';
+    try {
+      final data = jsonDecode(utf8.decode(response.bodyBytes));
+      message = data['detail'] ?? data['message'] ?? message;
+    } catch (_) {
+      message = 'Erreur serveur (${response.statusCode})';
+    }
+    return {
+      'success': false,
+      'status': response.statusCode,
+      'message': message,
+    };
   }
 
   Future<List<dynamic>> getAvailableDrivers() async {
